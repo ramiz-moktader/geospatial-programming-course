@@ -1,16 +1,16 @@
 # Project information
-site_name: REPO_NAME_OR_SITE_NAME
+site_name: Markdown test
 # defeine TOC or order of website-
 nav:
   - Home: index.md
 
-site_author: Sunny Bhaveen Chandra
+site_author: Ramiz moktader
 site_description: >-
   DESCRIPTION
 
 # Repository
-repo_name: ramiz-moktader/REPO_NAME
-repo_url: https://github.com/ramiz-moktader/REPO_NAME
+repo_name: ramiz-moktader/
+repo_url: https://github.com/ramiz-moktader/
 
 # Configuration
 theme:
@@ -39,13 +39,13 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/c17hawke
+      link: https://github.com/ramiz-moktader/
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/c17hawke
+      link: https://github.com/ramiz-moktader/
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/c17hawke
+      link: https://github.com/ramiz-moktader/
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/c17hawke/
+      link: https://github.com/ramiz-moktader/
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -70,4 +70,4 @@ plugins:
   - search
 
 copyright: |
-  &copy; 2022 <a href="https://github.com/c17hawke"  target="_blank" rel="noopener">Sunny Bhaveen Chandra</a>
+  &copy; 2022 <a href="https://github.com/ramiz-moktader/"  target="_blank" rel="noopener"> Ramiz moktader</a>
