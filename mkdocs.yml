@@ -9,8 +9,8 @@ site_description: >-
   DESCRIPTION
 
 # Repository
-repo_name: c17hawke/REPO_NAME
-repo_url: https://github.com/c17hawke/REPO_NAME
+repo_name: ramiz-moktader/REPO_NAME
+repo_url: https://github.com/ramiz-moktader/REPO_NAME
 
 # Configuration
 theme:
