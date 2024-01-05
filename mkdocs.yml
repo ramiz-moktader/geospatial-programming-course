@@ -20,15 +20,19 @@ theme:
       logo: material/test-tube
   features:
     # - navigation.tabs
-    - navigation.sections
+    # - navigation.sections
     - toc.integrate
     - navigation.top
     - content.code.copy
-    - navigation.instant
+    # - navigation.instant
     - navigation.tracking
-    - navigation.top
     - search.highlight
     - search.share
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+
   language: en
   palette:
     - scheme: default
@@ -77,7 +81,8 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  
+  - toc:
+      permalink: true
   
   
 plugins:
