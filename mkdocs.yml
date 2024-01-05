@@ -16,14 +16,19 @@ repo_url: https://github.com/ramiz-moktader/
 # Configuration
 theme:
   name: material
-  icon:
+  icon:                                                     
       logo: material/test-tube
   features:
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.sections
     - toc.integrate
     - navigation.top
     - content.code.copy
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
   language: en
   palette:
     - scheme: default
