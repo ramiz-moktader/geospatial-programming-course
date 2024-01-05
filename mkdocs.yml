@@ -68,6 +68,7 @@ markdown_extensions:
   
 plugins:
   - search
-
+extra:
+  generator: false
 copyright: |
   &copy; 2022 <a href="https://github.com/ramiz-moktader/"  target="_blank" rel="noopener"> Ramiz moktader</a>
