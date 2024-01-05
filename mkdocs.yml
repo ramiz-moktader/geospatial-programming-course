@@ -19,11 +19,7 @@ theme:
   icon:                                                     
       logo: material/test-tube
   features:
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
-    - content.code.annotate
-    - content.code.copy
+    
     # - content.code.select
     # - content.tabs.link
     - content.tooltips
@@ -36,8 +32,8 @@ theme:
     # - navigation.instant.progress
     # - navigation.prune
     - navigation.sections
-    - navigation.tabs
-    # - navigation.tabs.sticky
+    # - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
