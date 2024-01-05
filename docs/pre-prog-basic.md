@@ -1,6 +1,5 @@
 Certainly! Here is the HTML content converted into Markdown text:
 
-```markdown
 # Geospatial Programming Learning Course
 
 **Pre-reading to start learning programming. This article covers the topics for the pre-test.**
@@ -102,5 +101,5 @@ To participate in the final part of the **Geospatial Programming course**, you h
 **Contact:** [ramizmoktader064@gmail.com](mailto:ramizmoktader064@gmail.com)
 
 **© Ramiz Moktader**
-```
+
 
