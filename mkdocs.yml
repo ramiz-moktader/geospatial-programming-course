@@ -3,6 +3,7 @@ site_name: Markdown test
 # defeine TOC or order of website-
 nav:
   - Home: index.md
+  - Preprogramming Basic: pre-prog-basic.md
 
 site_author: Ramiz moktader
 site_description: >-
