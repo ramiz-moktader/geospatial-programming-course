@@ -22,6 +22,7 @@ theme:
     - navigation.sections
     - toc.integrate
     - navigation.top
+    - content.code.copy
   language: en
   palette:
     - scheme: default
@@ -66,6 +67,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  
   
   
 plugins:
