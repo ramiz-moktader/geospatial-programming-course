@@ -1,5 +1,5 @@
 # Project information
-site_name: Markdown test
+site_name: Intro to programming
 # defeine TOC or order of website-
 nav:
   - Home: index.md
