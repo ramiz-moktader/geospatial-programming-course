@@ -3,7 +3,10 @@ site_name: Intro to programming
 # defeine TOC or order of website-
 nav:
   - Home: index.md
-  - Preprogramming Basic: pre-prog-basic.md
+  - Pre programming Basic: pre-prog-basic.md
+  - Intro to programming with JavaScript:
+        - class 1-var, data type, comparison operator: intro-to-programming-with-js-class1.md
+
 
 site_author: Ramiz moktader
 site_description: >-
@@ -20,26 +23,31 @@ theme:
       logo: material/test-tube
   features:
     
-    # - content.code.select
+    - content.code.copy
     # - content.tabs.link
-    - content.tooltips
+    # - content.tooltips
     # - header.autohide
     # - navigation.expand
     - navigation.footer
-    - navigation.indexes
-    # - navigation.instant
-    # - navigation.instant.prefetch
-    # - navigation.instant.progress
-    # - navigation.prune
-    - navigation.sections
-    # - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
+    # - navigation.indexes
+    # # - navigation.instant
+    # # - navigation.instant.prefetch
+    # # - navigation.instant.progress
+    # # - navigation.prune
+    # - navigation.sections
+    # # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.top
+    # - navigation.tracking
+    # - search.highlight
+    # - search.share
+    # - search.suggest
+    # - toc.follow
+    - navigation.instant
     - navigation.tracking
+    - navigation.top
     - search.highlight
     - search.share
-    - search.suggest
-    - toc.follow
     # - toc.integrate
 
   language: en
@@ -92,7 +100,8 @@ markdown_extensions:
       pygments_lang_class: true
   - toc:
       permalink: true
-  
+extra_css:
+  - stylesheets/extra.css
   
 plugins:
   - search

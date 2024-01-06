@@ -1,4 +1,3 @@
-Certainly! Here is the HTML content converted into Markdown text:
 
 # Geospatial Programming Learning Course
 
@@ -10,7 +9,7 @@ Welcome, learners! This is the very first step of learning programming. To get y
 
 ### Data Type
 
-There are two basic types of data: quantitative and qualitative. Quantitative data is anything we can count, measure, or quantify with numbers. Qualitative data represents information in terms of language or description, which cannot be measured or counted.
+There are two basic types of data: **quantitative** and **qualitative**. Quantitative data is anything we can count, measure, or quantify with numbers. Qualitative data represents information in terms of language or description, which cannot be measured or counted.
 
 ### Basic Data Types in Programming
 
@@ -20,15 +19,15 @@ Apart from numbers and text, we use another basic type of data in programming la
 
 In programming, we primarily use three basic types of numbers: integer or whole number, decimal, and float.
 
-#### Integer and Decimal
+- Integer and Decimal
 
 All positive, negative whole numbers including 0 are integers. A decimal number expresses fractions or whole numbers using a decimal point.
 
-#### String
+- String
 
 In programming, a "string" is a way to handle text or qualitative data. It could be a single word, a sentence, or even a collection of paragraphs. Strings are just sequences of characters, and they are handy for dealing with any kind of text-related information in programming.
 
-#### Boolean
+- Boolean
 
 Boolean refers to a data type that can have one of two values: true or false. Boolean values are often used in conditional statements and expressions to make decisions in computer programs.
 
