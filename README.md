@@ -1,3 +1,3 @@
 # Geospatial programming course
 
-[See details]()
+[See details](https://ramiz-moktader.github.io/geospatial-programming-course/)
