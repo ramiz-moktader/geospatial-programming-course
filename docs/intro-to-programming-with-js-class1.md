@@ -1,12 +1,12 @@
-Certainly! Here's the revised version with only headings:
 
-"At the very first class, we discuss about the below topics:"
+At the very first class, we discuss about the below topics:
 
 - **Variable in JavaScript**
 
 - **Data Types in JavaScript**
 - **Data Type Conversion in JavaScript**
 - **Comparison Operators in JavaScript**
+
 The ultimate goal of this course is to gain proficiency in the Google Earth Engine JavaScript API, from basic to advanced concepts. Recognizing the importance of understanding fundamental programming concepts as a prerequisite, the course begins with JavaScript to build a solid foundation in programming. This approach ensures that participants are well-equipped with the necessary skills before exploring the intricacies of the Google Earth Engine JavaScript API. Let's get started! 
 
 ### Variable
@@ -138,3 +138,7 @@ In JavaScript, comparison operators are used to compare values and return a Bool
    ```
 
 These comparison operators are often used in conditional statements and expressions to control the flow of a program. They play a crucial role in decision-making processes. 
+
+In this course, we will focus only those parts of JS which are required to learn GEE JS API. 
+If you are interested to learn JS you can find at [https://www.w3schools.com/Js/](w3schools.com),
+[https://developer.mozilla.org/en-US/docs/Web/javascript](Mozila foundation), [https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/](Freecodecamp). 
