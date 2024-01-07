@@ -140,5 +140,5 @@ In JavaScript, comparison operators are used to compare values and return a Bool
 These comparison operators are often used in conditional statements and expressions to control the flow of a program. They play a crucial role in decision-making processes. 
 
 In this course, we will focus only those parts of JS which are required to learn GEE JS API. 
-If you are interested to learn JS you can find at (https://www.w3schools.com/Js/)[w3schools.com],
-(https://developer.mozilla.org/en-US/docs/Web/javascript)[Mozila foundation], (https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/)[Freecodecamp]. 
+If you are interested to learn JS you can find at[w3schools.com](https://www.w3schools.com/Js/),
+[Mozila foundation](https://developer.mozilla.org/en-US/docs/Web/javascript), [Freecodecamp](https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/). 
