@@ -1,19 +1,12 @@
+# **Arithmetic operators**
 
-
-
-**Operands and Operators**
-
-
-- **Operands:** These are the values or variables that operators act upon. For example, in the expression 5 + 3, the operands are 5 and 3.
+- **Operands:** These are the values or variables that operators act upon. For example, in the expression `5 + 3`, the operands are 5 and 3.. We can say 5 is the left operand, and 3 is the right operand.
 
 - **Operators:** These are symbols or keywords that perform operations on operands. In the expression 5 + 3, the plus sign (+) is the operator that adds the operands 5 and 3.
-
-So, in short, operands are the things you operate on, and operators are the symbols or keywords that perform the operations.
-
+In JavaScript, arithmetic operators perform mathematical operations on numeric values. Here are the main arithmetic operators:
 
 
-
-**Conditional statements**
+# **Conditional statements**
 
 Conditional statements are essential tools in programming, allowing developers to execute different actions based on specific conditions. In JavaScript, several conditional statements facilitate this process, each serving a distinct purpose.
 
@@ -28,7 +21,7 @@ if (condition) {
 ```
 
 ```javascript
-let temperature = 25;
+var temperature = 25;
 
 if (temperature > 30) {
     console.log("It's a hot day!");
@@ -54,7 +47,7 @@ if (condition) {
 ```
 
 ```javascript
-let loggedIn = false;
+var loggedIn = false;
 
 if (loggedIn) {
     console.log("Welcome, user!");
@@ -81,7 +74,7 @@ if (condition1) {
 }
 ```
 ```javascript
-let hour = 15;
+var hour = 15;
 
 if (hour < 12) {
     console.log("Good morning!");
