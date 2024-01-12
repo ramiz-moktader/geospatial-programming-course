@@ -47,7 +47,7 @@ In JavaScript, arithmetic operators perform mathematical operations on numeric v
 
 Conditional statements are essential tools in programming, allowing developers to execute different actions based on specific conditions. In JavaScript, several conditional statements facilitate this process, each serving a distinct purpose.
 
-**1. The "if" Statement:**
+### **1. The "if" Statement:**
 
 The `if` statement is fundamental in JavaScript, enabling the execution of a block of code if a specified condition evaluates to true. For instance:
 
@@ -71,7 +71,7 @@ In this example, the `if` statement checks if the `temperature` variable is grea
 
 Suppose the current temperature is 25. In this case, the condition `temperature > 30` is false. Therefore, the code inside the `else` block is executed, and "The weather is pleasant." will be logged to the console.
 
-**2. The "else" Statement:**
+### **2. The "else" Statement:**
 
 The `else` statement complements the `if` statement, providing an alternative block of code to be executed when the initial condition is false:
 
@@ -97,7 +97,7 @@ In this example, the `if` statement checks if the `loggedIn` variable is true. I
 
 If the user is not logged in (`loggedIn` is false), the code inside the `else` block will be executed, and "Please log in to access the content." will be printed in the console.
 
-**3. The "else if" Statement:**
+### **3. The "else if" Statement:**
 
 The `else if` statement allows for the evaluation of additional conditions after the initial `if` statement. This is useful when multiple conditions need to be considered:
 
