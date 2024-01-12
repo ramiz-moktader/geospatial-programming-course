@@ -1,3 +1,20 @@
+
+
+
+**Operands and Operators**
+
+
+- **Operands:** These are the values or variables that operators act upon. For example, in the expression 5 + 3, the operands are 5 and 3.
+
+- **Operators:** These are symbols or keywords that perform operations on operands. In the expression 5 + 3, the plus sign (+) is the operator that adds the operands 5 and 3.
+
+So, in short, operands are the things you operate on, and operators are the symbols or keywords that perform the operations.
+
+
+
+
+**Conditional statements**
+
 Conditional statements are essential tools in programming, allowing developers to execute different actions based on specific conditions. In JavaScript, several conditional statements facilitate this process, each serving a distinct purpose.
 
 **1. The "if" Statement:**
