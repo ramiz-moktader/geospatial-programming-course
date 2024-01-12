@@ -5,37 +5,37 @@
 - **Operators:** These are symbols or keywords that perform operations on operands. In the expression 5 + 3, the plus sign (+) is the operator that adds the operands 5 and 3.
 In JavaScript, arithmetic operators perform mathematical operations on numeric values. Here are the main arithmetic operators:
 
-1. **Addition (+):** Adds two values together.
+1.**Addition (+):** Adds two values together.
 
    ```javascript
    var sum = 5 + 3;  // sum is 8
    ```
 
-2. **Subtraction (-):** Subtracts the right operand from the left operand.
+2.**Subtraction (-):** Subtracts the right operand from the left operand.
 
    ```javascript
    var difference = 10 - 4;  // difference is 6
    ```
 
-3. **Multiplication (*):** Multiplies two values.
+3.**Multiplication (*):** Multiplies two values.
 
    ```javascript
    var product = 2 * 6;  // product is 12
    ```
 
-4. **Division (/):** Divides the left operand by the right operand.
+4.**Division (/):** Divides the left operand by the right operand.
 
    ```javascript
    var quotient = 8 / 2;  // quotient is 4
    ```
 
-5. **Remainder (%):** Returns the remainder of the division of the left operand by the right operand.
+5.**Remainder (%):** Returns the remainder of the division of the left operand by the right operand.
 
    ```javascript
    var remainder = 10 % 3;  // remainder is 1
    ```
 
-6. **Exponentiation (** or Math.pow()):** Raises the left operand to the power of the right operand.
+6.**Exponentiation (** or Math.pow()):** Raises the left operand to the power of the right operand.
 
    ```javascript
    var power = 2 ** 3;  // power is 8
