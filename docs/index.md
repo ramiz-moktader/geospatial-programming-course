@@ -7,3 +7,4 @@ Welcome to the Geospatial Programming Course! This table provides essential deta
 | ------------------------------------ | -------------------- | ------------------- | ------------------------------------------------------ | -------------------------- | --------------- |
 | **Pre-test on pre-programming concepts** | 31 December 2023    | 105                 | [Pre-programming concepts](pre-prog-basic.md)          | Date is over     | English         |
 | **Intro to Programming Language with JavaScript: Class 1**| 5 January 2024           | 75   | [Class 1-var, data type, comparison operator](intro-to-programming-with-js-class1.md)                                    | Check your email     | English  |
+| **Intro to Programming Language with JavaScript: Class 2**| 12 January 2024           | 45   | [Class 2- arithmetic operator, Conditional statement](conditional-statements-class2.md)                                    | Check your email     | Bangla  |
