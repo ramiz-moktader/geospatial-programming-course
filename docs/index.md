@@ -1,7 +1,7 @@
 
 **Geospatial Programming Course Overview**
 
-Welcome to the Geospatial Programming Course! This table provides essential details for each class. Whether you're new to programming or exploring geospatial applications, this course offers a comprehensive learning experience.
+Welcome to the Geospatial Programming Course! This course is divided into two main parts. In the first part, we will cover the basic concepts of programming using the JavaScript programming language. In the second part, we will delve deep into the Google Earth Engine JS API. This table provides essential details for each class and will be updated over time.
 
 | Topic                                | Held At (Date)      | Total Participants | Class Materials Link                                  | Assignment Submission Link | Class Language |
 | ------------------------------------ | -------------------- | ------------------- | ------------------------------------------------------ | -------------------------- | --------------- |
