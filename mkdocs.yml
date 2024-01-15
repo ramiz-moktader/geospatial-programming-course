@@ -71,12 +71,12 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/ramiz-moktader/
-    - icon: fontawesome/brands/twitter
-      link: https://github.com/ramiz-moktader/
-    - icon: fontawesome/brands/linkedin
-      link: https://github.com/ramiz-moktader/
-    - icon: fontawesome/brands/instagram
-      link: https://github.com/ramiz-moktader/
+    # - icon: fontawesome/brands/twitter
+    #   link: https://github.com/ramiz-moktader/
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://github.com/ramiz-moktader/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/wrong.destination.18/ 
 
 extra_javascript:
   - javascripts/mathjax.js
