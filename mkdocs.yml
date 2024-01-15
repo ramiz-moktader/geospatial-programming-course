@@ -106,7 +106,7 @@ extra_css:
   
 plugins:
   - search
-extra:
-  # generator: false
+# extra:
+#   generator: false
 copyright: |
   &copy; 2024 <a href="https://github.com/ramiz-moktader/"  target="_blank" rel="noopener"> Ramiz moktader</a>
