@@ -19,4 +19,5 @@ Make sure you use the same email address that you gave during registration of th
 5.  [2nd class](https://youtu.be/2oPc2RAzAt0)
 
 ### Troubleshooting video 
+
 1. [How to create JS file in VS Code](https://youtu.be/Fw851CKuyCM) 
