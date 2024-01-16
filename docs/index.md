@@ -11,11 +11,12 @@ Welcome to the Geospatial Programming Course! This course is divided into two ma
 
 ### **List of all video contet to follow:** 
 Make sure you use the same email address that you gave during registration of the course. 
-1. [Installing vs code and node js](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ)
-2. [1st class part-1](https://drive.google.com/file/d/1Y1OiFRidijEs7S_u3yhuocXJkin_JXWP/view?usp=drive_link)
-3. [1st class part-2]((https://drive.google.com/file/d/1jBoXTfc0hzYxJj92jcmAUUX1tg5Lnu3-/view?usp=drive_link))
-4. [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0)
-5. [2nd class](https://youtu.be/2oPc2RAzAt0)
+
+1.  [Installing vs code and node js](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ)
+2.  [1st class part-1](https://drive.google.com/file/d/1Y1OiFRidijEs7S_u3yhuocXJkin_JXWP/view?usp=drive_link)
+3.  [1st class part-2]((https://drive.google.com/file/d/1jBoXTfc0hzYxJj92jcmAUUX1tg5Lnu3-/view?usp=drive_link))
+4.  [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0)
+5.  [2nd class](https://youtu.be/2oPc2RAzAt0)
 
 ### Troubleshooting video 
 1. [How to create JS file in VS Code](https://youtu.be/Fw851CKuyCM) 
