@@ -130,7 +130,7 @@ If the `hour` is 15, the first condition (`hour < 12`) is false. The program the
 
 1. Suppose you have a login system where you can log in by using only any of three names.
 
-    - Determine three names inside your code.'
+    - Determine three names inside your code.
     - Write a code that takes the user input.
     - If the user provided name doesn’t match with none of your predetermined names it will display “Sorry! We don’t find you in the system.” Otherwise, it will display “Welcome! “.
 
@@ -146,7 +146,7 @@ If the `hour` is 15, the first condition (`hour < 12`) is false. The program the
 
     - Display the final cost after applying the discount.
 
-4. Write a code that calculates the final grade for a student based on their scores in different subjects. The program should:
+4. Write a code that calculates the final grade for a student based on his scores in different subjects. The program should:
 
     - Prompt the user to enter the scores for three subjects: Math, English, and Science.
 
