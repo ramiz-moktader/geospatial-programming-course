@@ -125,3 +125,37 @@ if (hour < 12) {
 In this example, the `else if` statement provides an additional condition to check after the initial `if` condition. It prints a greeting based on the time of day.
 
 If the `hour` is 15, the first condition (`hour < 12`) is false. The program then checks the next condition (`hour < 18`), which is true. Therefore, "Good afternoon!" will be printed in the console.
+
+### **Exercise** 
+
+1. Suppose you have a login system where you can log in by using only any of three names.
+
+    - Determine three names inside your code.'
+    - Write a code that takes the user input.
+    - If the user provided name doesn’t match with none of your predetermined names it will display “Sorry! We don’t find you in the system.” Otherwise, it will display “Welcome! “.
+
+2. Write a code that prompts the user to enter a year. The code should display a message indicating whether the year is a leap year or not.
+
+3. Create a simple shopping cart program. The program should:
+
+    - Prompt the user to enter the price of three items one by one.
+
+    - Apply a discount based on the total cost:
+
+    - If the total cost is greater than 50 TK, apply a 10% discount. If the total cost is greater than 100, apply a 20% discount. Use the formula: discountedCost = totalCost - (totalCost * discount)
+
+    - Display the final cost after applying the discount.
+
+4. Write a code that calculates the final grade for a student based on their scores in different subjects. The program should:
+
+    - Prompt the user to enter the scores for three subjects: Math, English, and Science.
+
+    - Calculate the average score using the formula: average = (mathScore + englishScore + scienceScore) / 3.
+
+    - Display the final average score.
+
+    - Use conditional statements to determine and display the corresponding letter grade based on the following grading scale:
+
+        - A:  > 60 
+
+        - F: <60
