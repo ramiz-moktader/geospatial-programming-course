@@ -19,6 +19,7 @@ Make sure you use the same email address that you gave during registration of th
 4.  [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0)
 5.  [2nd class](https://youtu.be/2oPc2RAzAt0)
 6.  [3rd class](https://youtu.be/TfZvwFouCjE)
+7. [Creating GitHub account and asking your questions](https://www.youtube.com/watch?v=n6PiBM-cudM)
 
 ### Troubleshooting video 
 
