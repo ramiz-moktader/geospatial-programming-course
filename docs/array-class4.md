@@ -3,7 +3,7 @@
 
 ### **Array**
 
-An array is a powerful data structure for managing and handling data in any programming language. While the syntax and notation of arrays vary from language to language, the fundamental concepts remain similar.
+Array is a powerful data structure for managing and handling data in any programming language. While the syntax and notation of arrays vary from language to language, the fundamental concepts remain similar.
 
 ## Why Use Arrays?
 
@@ -25,6 +25,7 @@ for (var i = 0; i < landUseType.length; i++) {
   console.log(landUseType[i]);
 }
 ```
+
 
 Arrays provide a structured way to store and access multiple values under a single variable, especially helpful when dealing with extensive lists.
 
@@ -65,7 +66,7 @@ var landUseType = ["Waterbody", "Bare_land", "Settlement", "Vegetation"];
 var waterbody = landUseType[0]; // Accesses the first element
 ```
 
-## Modifying Array Elements
+###  Modifying Array Elements
 
 You can easily change the value of an array element by referencing its index:
 
@@ -73,7 +74,8 @@ You can easily change the value of an array element by referencing its index:
 var ar = ["Padma", "Meghna", "Jamuna"];
 ar[0] = "Tista"; // Changes "Padma" to "Tista"
 ```
----
+
+
 ## Array Properties and Methods
 
 JavaScript arrays come with built-in properties and methods that enhance their functionality. Some of those are:
