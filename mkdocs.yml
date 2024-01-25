@@ -5,9 +5,10 @@ nav:
   - Home: index.md
   - Pre programming Basic: pre-prog-basic.md
   - Intro to programming with JavaScript:
-        - Class 1-var, data type, comparison operator: intro-to-programming-with-js-class1.md
-        - Class 2-arithmetic operators, conditional statements: conditional-statements-class2.md
-        - Class 3 - logical operator, loop: logical-operator-loop-class3.md 
+        - Class 1 - var, data type, comparison operator: intro-to-programming-with-js-class1.md
+        - Class 2 - Arithmetic operators, conditional statements: conditional-statements-class2.md
+        - Class 3 - Logical operator, loop: logical-operator-loop-class3.md 
+        - Class 4 - Arrary: array-class4.md
 
 
 site_author: Ramiz moktader
