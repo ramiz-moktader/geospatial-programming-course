@@ -20,6 +20,7 @@ Make sure you use the same email address that you gave during registration of th
 5.  [2nd class](https://youtu.be/2oPc2RAzAt0)
 6.  [3rd class](https://youtu.be/TfZvwFouCjE)
 7. [Creating GitHub account and asking your questions](https://www.youtube.com/watch?v=n6PiBM-cudM)
+8. [4th class](https://www.youtube.com/watch?v=2M7UNE9a4Ek)
 
 ### Troubleshooting video 
 

@@ -102,17 +102,7 @@ console.log("Number of elements in the array: " + arrayLength);
 
 The `sort()` method is used to sort the elements of an array. By default, it sorts elements as strings, so for numbers, you need to provide a comparison function:
 
-```javascript
-var numbers = [10, 5, 8, 2, 7];
 
-// Sorting the array
-numbers.sort(function(a, b) {
-  return a - b; // Ascending order
-});
-
-console.log("Sorted numbers: " + numbers);
-// Output: Sorted numbers: 2,5,7,8,10
-```
 
 For sorting strings alphabetically, you don't need to provide a comparison function:
 
