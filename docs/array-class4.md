@@ -115,7 +115,65 @@ fruits.sort();
 console.log("Sorted fruits: " + fruits);
 // Output: Sorted fruits: Apple,Banana,Mango,Orange
 ```
+**JavaScript's Map Method**
 
+In JavaScript, the `map()` method is a versatile tool for transforming arrays with ease and efficiency. Let's explore the `map()` method using your provided code example.
+
+**What is `map()`?**
+
+- `map()` is a built-in method in JavaScript used to transform each element of an array based on a provided function.
+
+**Syntax**
+
+```javascript
+var newArray = array.map(callback(currentValue));
+```
+
+- `array`: The original array you want to transform.
+- `callback`: A function that defines the transformation for each element.
+
+**How it Works**
+
+- `map()` iterates through each element of the array.
+- For each element, it applies the provided function (callback) and collects the return value into a new array.
+- The resulting array contains the transformed elements, leaving the original array unchanged.
+
+### Example
+
+```javascript
+var numList = [2, 3, 4, 5]; // Original array
+
+function doublingNuml(num) {
+    return num * 2; // Function to double a number
+}
+
+var doubledNum = numList.map(doublingNuml); // Using map() to double each element
+
+console.log(doubledNum); // Outputting the new array with doubled values
+
+```
+
+In your provided code example, you're using the `map()` method to double each number in the `numList` array using the `doublingNuml` function. Let's break it down:
+
+```javascript
+var numList = [2, 3, 4, 5]; // Original array
+
+function doublingNuml(num) {
+    return num * 2; // Function to double a number
+}
+
+var doubledNum = numList.map(doublingNuml); // Using map() to double each element
+
+console.log(doubledNum); // Outputting the new array with doubled values
+```
+**Explanation**:
+
+1. We have an array `numList` containing `[2, 3, 4, 5]`.
+2. We define a function `doublingNuml(num)` that takes a number `num` and returns `num * 2`, effectively doubling it.
+3. We use the `map()` method on the `numList` array with the `doublingNuml` function. This applies the `doublingNuml` function to each element of the array and creates a new array `doubledNum` with the doubled values.
+4. Finally, we log the new array `doubledNum` to the console, which contains `[4, 6, 8, 10]`, the result of applying the `doublingNuml` function to each element of the original array.
+
+This demonstrates how the `map()` method can be used to efficiently transform array elements based on a provided function, resulting in a new array with the transformed values.
 ## Looping Through Arrays
 
 You can iterate through array elements using a `for` loop or the `forEach()` function:
