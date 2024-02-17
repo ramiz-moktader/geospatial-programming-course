@@ -18,11 +18,11 @@ There should be some light source.
 
 - Reflection: Healthy vegetation, including trees, tends to reflect more near-infrared light and less red light. This results in a higher NDVI value. Unhealthy or sparse vegetation may have a lower NDVI value due to reduced reflectance in the near-infrared spectrum.
 
-### **Light absorption and reflection by plant
+### **Light absorption and reflection by plant**
 
 ![Light absorb by plant](images/leaves-light-absorb.jpg)
 
-### **Remote sensing
+### **Remote sensing**
 
 Remote sensing is the process of collecting information about an object or area without making physical contact with it. 
 There are two main types of remote sensing, based on how they collect data: active and passive.
@@ -79,7 +79,7 @@ For a black and white image, each pixel is either black or white, represented by
   - **SWIR-1**: Wavelength Range: 1,350 - 1,750 nm
   - **SWIR-2**: Wavelength Range: 1,750 - 2,500 nm
 
-  ### **Multispectral Bands of Satellite** 
+### **Multispectral Bands of Satellite** 
 
 Few satellites commonly used for multispectral remote sensing along with their spectral bands:
 
