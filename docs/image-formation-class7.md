@@ -12,4 +12,4 @@ There should be some light source.
 
 ![Alt Text](ramiz-moktader/geospatial-programming-course/docs/images/dkdk.png)
 
-![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+![Image title](https://github.com/ramiz-moktader/geospatial-programming-course/blob/master/docs/images/dkdk.png){ align=left }
