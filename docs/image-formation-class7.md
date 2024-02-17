@@ -8,8 +8,8 @@ There should be some light source.
 
 3. Light reflected from the object should reach our eye.
 
-![image](dkdk.png)
+<!-- ![image](dkdk.png) -->
 
-![Alt Text](ramiz-moktader/geospatial-programming-course/docs/images/dkdk.png)
+![Alt Text](images/dkdk.png)
 
 ![Image title](https://github.com/ramiz-moktader/geospatial-programming-course/blob/master/docs/images/dkdk.png){ align=left }
