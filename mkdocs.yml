@@ -108,6 +108,8 @@ markdown_extensions:
       pygments_lang_class: true
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
 extra_css:
   - stylesheets/extra.css
   
