@@ -7,5 +7,7 @@ There should be some light source.
  the object should reflect light that falls on its surface.
 
 3. Light reflected from the object should reach our eye.
+
 ![image](/images/dkdk.png)
+
 ![Alt Text](ramiz-moktader/geospatial-programming-course/docs/images/dkdk.png)
