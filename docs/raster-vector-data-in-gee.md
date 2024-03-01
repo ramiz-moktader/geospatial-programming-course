@@ -18,12 +18,14 @@ Raster and vector data are two fundamental types of spatial data used in Geograp
 In computer graphics, two primary methods are used to represent images: **vector graphics** and **raster graphics**.
 
 1. **Raster Graphics**:
+
    * Raster graphics, also known as bitmap graphics, are composed of a grid of pixels, where each pixel contains color information.
    * These images are resolution-dependent, meaning they can lose quality when scaled up.
    * Common file formats for raster graphics include JPEG, PNG, and GIF.
    * Raster images are suitable for photographs and complex images with varying colors and shades.
 
 2. **Vector Graphics**:
+
    - Vector graphics are composed of mathematical formulas that define shapes and lines.
    - Instead of using pixels, vector graphics use points, lines, curves, and shapes (e.g., circles, rectangles).
    - These images are resolution-independent, meaning they can be scaled up without losing quality.
@@ -35,11 +37,13 @@ In computer graphics, two primary methods are used to represent images: **vector
 When we transition to the realm of Geographic Information Systems (GIS), both vector and raster data play essential roles in representing spatial information.
 
 1. **Raster Data** in GIS:
+
    - In GIS, raster data represents geographic phenomena as a grid of cells, where each cell has a value representing a certain attribute (e.g., elevation, temperature, land cover).
    - Satellite imagery, aerial photographs, and digital elevation models (DEMs) are common examples of raster data.
    - Raster data is suitable for continuous spatial phenomena where values change continuously across the landscape.
 
 2. **Vector Data** in GIS:
+
    - Vector data represents geographic features using discrete geometric objects such as points, lines, and polygons.
    - Points represent specific locations (e.g., cities, sampling sites), lines represent linear features (e.g., roads, rivers), and polygons represent areas (e.g., administrative boundaries, land parcels).
    - Vector data is used to represent discrete features and can store attribute information associated with each feature.
@@ -49,6 +53,7 @@ When we transition to the realm of Geographic Information Systems (GIS), both ve
 In GIS applications, both raster and vector data are utilized for various purposes:
 
 **Raster data** is used for tasks such as:
+
   - Terrain analysis (e.g., slope, aspect, visibility analysis).
   - Land cover classification and change detection.
   - Remote sensing applications (e.g., satellite image analysis).
@@ -65,6 +70,7 @@ In GIS applications, both raster and vector data are utilized for various purpos
   - Network analysis (e.g., routing, transportation planning).
   - Asset management (e.g., tracking infrastructure, facilities management).
   - Cartographic representation (e.g., map production, thematic mapping).
+
 <figure markdown="span">
   ![Vector image](images/vector-data.jpg)
   <figcaption>Figrue: Vector data </figcaption>
@@ -75,25 +81,30 @@ In GIS applications, both raster and vector data are utilized for various purpos
 Different types of vector data commonly used in Geographic Information Systems (GIS) include:
 
 1. **Points**:
+
    - Points represent specific locations on the Earth's surface or within a geographical area. Examples include:
+
      - City locations
      - Sampling sites
      - GPS coordinates
 
 2. **Lines**:
    - Lines represent linear features and are composed of a sequence of connected points. Examples include:
+
      - Roads and highways
      - Rivers and streams
      - Utility lines (e.g., pipelines, power lines)
 
 3. **Polygons**:
    - Polygons represent enclosed areas and are defined by a series of connected lines forming a closed loop. Examples include:
+
      - Administrative boundaries (e.g., country borders, state boundaries)
      - Land parcels
      - Ecological zones
 
 4. **Multi-Points**:
    - Multi-points represent collections of individual points grouped together. Examples include:
+
      - Sets of landmarks or features with multiple points of interest (e.g., tourist attractions within a park)
 
 5. **Multi-Lines**:
@@ -103,6 +114,7 @@ Different types of vector data commonly used in Geographic Information Systems (
 
 6. **Multi-Polygons**:
    - Multi-polygons represent collections of individual polygons grouped together. Examples include:
+
      - Complex land use zones with multiple discrete areas (e.g., residential, commercial, industrial)
      - Administrative regions composed of multiple subunits (e.g., districts within a city, counties within a state)
 
@@ -113,6 +125,7 @@ These are some common types of vector data used in GIS applications. Each type s
 In the context of the Google Earth Engine (GEE) JavaScript API, geometry, feature, and feature collection are fundamental concepts used to represent and work with spatial data. Here's a discussion on each:
 
 1. **Geometry**:
+
    - In GEE, a geometry represents a geometric shape or spatial extent defined by points, lines, or polygons in geographic coordinates (latitude and longitude).
    - Geometries can be simple, such as a single point or a line, or complex, such as a polygon representing the boundary of a region.
    - Geometries are often used to define regions of interest, boundaries, or areas for spatial analysis and processing.
@@ -165,6 +178,7 @@ Map.addLayer(polygon, {color: 'green'}, 'Polygon');
 
 
 2. **Feature**:
+
    - A feature in GEE represents a spatially explicit object associated with a geometry and a set of properties or attributes.
    - Features can represent real-world entities such as cities, rivers, buildings, or administrative boundaries.
    - Each feature contains a geometry (described above) and a collection of key-value pairs representing properties. These properties could include information like name, population, elevation, or any other relevant attribute.
@@ -182,6 +196,7 @@ Map.addLayer(cityFeature, {}, 'City Feature');
 ```
 
 3. **Feature Collection**:
+
    - A feature collection is a group or collection of features, each with its own geometry and properties.
    - Feature collections allow users to organize and manage multiple spatial features within a single data structure.
    - Feature collections can represent various types of spatial data, including point clouds, vector datasets, or even collections of satellite imagery.
