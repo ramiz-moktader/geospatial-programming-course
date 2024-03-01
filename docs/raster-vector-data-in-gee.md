@@ -1,4 +1,3 @@
-## Class 8
 
 ### Creating a GEE account
 
@@ -61,8 +60,10 @@ In GIS applications, both raster and vector data are utilized for various purpos
   - Network analysis (e.g., routing, transportation planning).
   - Asset management (e.g., tracking infrastructure, facilities management).
   - Cartographic representation (e.g., map production, thematic mapping).
-![Vector image](images/vector-data.jpg)
-
+<figure markdown="span">
+  ![Vector image](images/vector-data.jpg)
+  <figcaption>Vector data </figcaption>
+</figure>
 
 ### Types of Vector data
 
