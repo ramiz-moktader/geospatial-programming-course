@@ -5,8 +5,9 @@ Google Earth Engine is free for non-commercial and research purposes. You can cr
 
 1) [Register a cloud project](https://code.earthengine.google.com/register)
 
-2) [Fill this form and submi your applicaiton](https://signup.earthengine.google.com/#!/no_redirect)
+2) [Fill this form and submit your applicaiton](https://signup.earthengine.google.com/#!/no_redirect)
 
+You can also [Watch this video.](https://www.youtube.com/watch?v=NQDSess-HBQ&t=85s) 
 
 ### Raster and Vector data 
 
@@ -17,10 +18,10 @@ Raster and vector data are two fundamental types of spatial data used in Geograp
 In computer graphics, two primary methods are used to represent images: **vector graphics** and **raster graphics**.
 
 1. **Raster Graphics**:
-   - Raster graphics, also known as bitmap graphics, are composed of a grid of pixels, where each pixel contains color information.
-   - These images are resolution-dependent, meaning they can lose quality when scaled up.
-   - Common file formats for raster graphics include JPEG, PNG, and GIF.
-   - Raster images are suitable for photographs and complex images with varying colors and shades.
+   * Raster graphics, also known as bitmap graphics, are composed of a grid of pixels, where each pixel contains color information.
+   * These images are resolution-dependent, meaning they can lose quality when scaled up.
+   * Common file formats for raster graphics include JPEG, PNG, and GIF.
+   * Raster images are suitable for photographs and complex images with varying colors and shades.
 
 2. **Vector Graphics**:
    - Vector graphics are composed of mathematical formulas that define shapes and lines.
@@ -47,17 +48,19 @@ When we transition to the realm of Geographic Information Systems (GIS), both ve
 
 In GIS applications, both raster and vector data are utilized for various purposes:
 
-- **Raster data** is used for tasks such as:
+**Raster data** is used for tasks such as:
   - Terrain analysis (e.g., slope, aspect, visibility analysis).
   - Land cover classification and change detection.
   - Remote sensing applications (e.g., satellite image analysis).
   - Continuous surface modeling (e.g., interpolation, hydrological modeling).
+
 <figure markdown="span">
 ![Raster image](images/raster-data.jpg)
   <figcaption>Figrue: Raster data source: arcgis.com </figcaption>
 </figure>
 
-- **Vector data** is used for tasks such as:
+**Vector data** is used for tasks such as:
+
   - Geospatial analysis (e.g., buffer analysis, overlay operations).
   - Network analysis (e.g., routing, transportation planning).
   - Asset management (e.g., tracking infrastructure, facilities management).

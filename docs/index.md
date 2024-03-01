@@ -24,6 +24,10 @@ Make sure you use the same email address that you gave during registration of th
 7. [Creating GitHub account and asking your questions](https://www.youtube.com/watch?v=n6PiBM-cudM)
 8. [4th class](https://www.youtube.com/watch?v=2M7UNE9a4Ek)
 9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
+9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
+9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
+9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
+
 ### Troubleshooting video 
 
 1. [How to create JS file in VS Code-English](https://youtu.be/Fw851CKuyCM) 
