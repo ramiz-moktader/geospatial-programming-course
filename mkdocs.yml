@@ -11,8 +11,8 @@ nav:
         - Class 4 - Arrary: array-class4.md
         - class 5 - Function: function-class5.md
         - Class 6 - Object: js-objects-class6.md 
-  - Image formation: 
-     - Class 7 - Basic structure of image: image-formation-class7.md
+  - Intro to GIS and GEE: 
+     - Class 7 - Basic structure of an image: image-formation-class7.md
      - Class 8 - GIS data type and vecotr data in GEE: raster-vector-data-in-gee.md
 
 

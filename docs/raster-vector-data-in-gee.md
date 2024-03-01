@@ -54,11 +54,14 @@ In GIS applications, both raster and vector data are utilized for various purpos
   - Remote sensing applications (e.g., satellite image analysis).
   - Continuous surface modeling (e.g., interpolation, hydrological modeling).
 
+![Raster image](images/raster-data.jpg)
+
 - **Vector data** is used for tasks such as:
   - Geospatial analysis (e.g., buffer analysis, overlay operations).
   - Network analysis (e.g., routing, transportation planning).
   - Asset management (e.g., tracking infrastructure, facilities management).
   - Cartographic representation (e.g., map production, thematic mapping).
+![Vector image](images/vector-data.jpg)
 
 
 ### Types of Vector data
