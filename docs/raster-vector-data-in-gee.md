@@ -19,10 +19,10 @@ In computer graphics, two primary methods are used to represent images: **vector
 
 1. **Raster Graphics**:
 
-   * Raster graphics, also known as bitmap graphics, are composed of a grid of pixels, where each pixel contains color information.
-   * These images are resolution-dependent, meaning they can lose quality when scaled up.
-   * Common file formats for raster graphics include JPEG, PNG, and GIF.
-   * Raster images are suitable for photographs and complex images with varying colors and shades.
+   - Raster graphics, also known as bitmap graphics, are composed of a grid of pixels, where each pixel contains color information.
+   - These images are resolution-dependent, meaning they can lose quality when scaled up.
+   - Common file formats for raster graphics include JPEG, PNG, and GIF.
+   - Raster images are suitable for photographs and complex images with varying colors and shades.
 
 2. **Vector Graphics**:
 

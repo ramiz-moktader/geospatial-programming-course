@@ -24,9 +24,9 @@ Make sure you use the same email address that you gave during registration of th
 7. [Creating GitHub account and asking your questions](https://www.youtube.com/watch?v=n6PiBM-cudM)
 8. [4th class](https://www.youtube.com/watch?v=2M7UNE9a4Ek)
 9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
-9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
-9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
-9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
+10. [6th class](https://www.youtube.com/watch?v=R97uPjvqbnc&feature=youtu.be)
+11. [7th class](https://youtu.be/xwlE6-lY2Mk)
+11. [Signup for Google Earth Engine account]()
 
 ### Troubleshooting video 
 
