@@ -188,6 +188,7 @@ Map.addLayer(polygon, {color: 'green'}, 'Polygon');
 // Define a feature with a point geometry and properties
 var cityFeature = ee.Feature(point, {name: 'San Francisco', population: 884363});
 
+
 // Center the map on the feature
 Map.centerObject(cityFeature, 10);
 
@@ -217,6 +218,12 @@ Map.centerObject(featureCollection, 10);
 // Add feature collection as a layer to the map
 Map.addLayer(featureCollection, {}, 'Feature Collection');
 ```
+### Assignment 8 
+
+- Draw a  rectangle, a point, and a polygon in Google Earth Engine, take a screenshot, and upload the screenshot and the code in your github repo. Submit your github repo link below.
+- Draw a feature collection of 5 polygons covering water bodies in your area. Take a screenshot. Then, upload the code and screenshot in your github repo. Submit your github repo link 
+- Open this code in GEE  and take a screenshot of the boundary of Bangladesh. Upload in your github repo and submit the repo link 
+- Open this code in GEE and change the division name to yours. Take a screenshot of your division map and upload it to github. Submit the repo link. 
 
 
 
