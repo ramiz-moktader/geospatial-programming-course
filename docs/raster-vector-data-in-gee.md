@@ -179,10 +179,10 @@ Map.addLayer(polygon, {color: 'green'}, 'Polygon');
 
 2. **Feature**:
 
-   - A feature in GEE represents a spatially explicit object associated with a geometry and a set of properties or attributes.
-   - Features can represent real-world entities such as cities, rivers, buildings, or administrative boundaries.
-   - Each feature contains a geometry (described above) and a collection of key-value pairs representing properties. These properties could include information like name, population, elevation, or any other relevant attribute.
-   - Features are often used to organize and analyze spatial data, enabling users to attach additional information to geometries and perform queries or analysis based on these attributes.
+- A feature in GEE represents a spatially explicit object associated with a geometry and a set of properties or attributes.
+- Features can represent real-world entities such as cities, rivers, buildings, or administrative boundaries.
+- Each feature contains a geometry (described above) and a collection of key-value pairs representing properties. These properties could include information like name, population, elevation, or any other relevant attribute.
+- Features are often used to organize and analyze spatial data, enabling users to attach additional information to geometries and perform queries or analysis based on these attributes.
 
 ```javascript
 // Define a feature with a point geometry and properties
@@ -197,12 +197,11 @@ Map.addLayer(cityFeature, {}, 'City Feature');
 ```
 
 3. **Feature Collection**:
-
-   - A feature collection is a group or collection of features, each with its own geometry and properties.
-   - Feature collections allow users to organize and manage multiple spatial features within a single data structure.
-   - Feature collections can represent various types of spatial data, including point clouds, vector datasets, or even collections of satellite imagery.
-   - Feature collections are often used as inputs for spatial analysis algorithms, visualization layers on maps, or storage containers for spatial datasets.
-   - Feature collections can be created by importing data from external sources, generating geometries programmatically, or aggregating individual features into a collection.
+- A feature collection is a group or collection of features, each with its own geometry and properties.
+- Feature collections allow users to organize and manage multiple spatial features within a single data structure.
+- Feature collections can represent various types of spatial data, including point clouds, vector datasets, or even collections of satellite imagery.
+- Feature collections are often used as inputs for spatial analysis algorithms, visualization layers on maps, or storage containers for spatial datasets.
+- Feature collections can be created by importing data from external sources, generating geometries programmatically, or aggregating individual features into a collection.
 
 
 ```javascript
@@ -225,5 +224,7 @@ Map.addLayer(featureCollection, {}, 'Feature Collection');
 - Open this code in GEE  and take a screenshot of the boundary of Bangladesh. Upload in your github repo and submit the repo link 
 - Open this code in GEE and change the division name to yours. Take a screenshot of your division map and upload it to github. Submit the repo link. 
 
+**Submssion link**: [Click here to sbumit via google form](https://docs.google.com/forms/d/e/1FAIpQLSfQZDJ2rmIbnNsuyt5Nf6txCaUL9qOwYGaRSBRjOCaM7qEK9w/viewform?usp=sf_link)
+**Dead line**: <span style="color: red;">10 March, 2024</span>
 
 
