@@ -17,20 +17,20 @@ Raster and vector data are two fundamental types of spatial data used in Geograp
 
 In computer graphics, two primary methods are used to represent images: **vector graphics** and **raster graphics**.
 
-1. **Raster Graphics**:
+**Raster Graphics**:
 
-   - Raster graphics, also known as bitmap graphics, are composed of a grid of pixels, where each pixel contains color information.
-   - These images are resolution-dependent, meaning they can lose quality when scaled up.
-   - Common file formats for raster graphics include JPEG, PNG, and GIF.
-   - Raster images are suitable for photographs and complex images with varying colors and shades.
+- Raster graphics, also known as bitmap graphics, are composed of a grid of pixels, where each pixel contains color information.
+- These images are resolution-dependent, meaning they can lose quality when scaled up.
+- Common file formats for raster graphics include JPEG, PNG, and GIF.
+- Raster images are suitable for photographs and complex images with varying colors and shades.
 
-2. **Vector Graphics**:
+**Vector Graphics**:
 
-   - Vector graphics are composed of mathematical formulas that define shapes and lines.
-   - Instead of using pixels, vector graphics use points, lines, curves, and shapes (e.g., circles, rectangles).
-   - These images are resolution-independent, meaning they can be scaled up without losing quality.
-   - Common file formats for vector graphics include SVG (Scalable Vector Graphics), AI (Adobe Illustrator), and EPS (Encapsulated PostScript).
-   - Vector images are suitable for illustrations, logos, and diagrams.
+- Vector graphics are composed of mathematical formulas that define shapes and lines.
+- Instead of using pixels, vector graphics use points, lines, curves, and shapes (e.g., circles, rectangles).
+- These images are resolution-independent, meaning they can be scaled up without losing quality.
+- Common file formats for vector graphics include SVG (Scalable Vector Graphics), AI (Adobe Illustrator), and EPS (Encapsulated PostScript).
+- Vector images are suitable for illustrations, logos, and diagrams.
 
 ### Transition to GIS (Geographic Information Systems):
 
@@ -38,15 +38,15 @@ When we transition to the realm of Geographic Information Systems (GIS), both ve
 
 1. **Raster Data** in GIS:
 
-   - In GIS, raster data represents geographic phenomena as a grid of cells, where each cell has a value representing a certain attribute (e.g., elevation, temperature, land cover).
-   - Satellite imagery, aerial photographs, and digital elevation models (DEMs) are common examples of raster data.
-   - Raster data is suitable for continuous spatial phenomena where values change continuously across the landscape.
+- In GIS, raster data represents geographic phenomena as a grid of cells, where each cell has a value representing a certain attribute (e.g., elevation, temperature, land cover).
+- Satellite imagery, aerial photographs, and digital elevation models (DEMs) are common examples of raster data.
+- Raster data is suitable for continuous spatial phenomena where values change continuously across the landscape.
 
 2. **Vector Data** in GIS:
 
-   - Vector data represents geographic features using discrete geometric objects such as points, lines, and polygons.
-   - Points represent specific locations (e.g., cities, sampling sites), lines represent linear features (e.g., roads, rivers), and polygons represent areas (e.g., administrative boundaries, land parcels).
-   - Vector data is used to represent discrete features and can store attribute information associated with each feature.
+- Vector data represents geographic features using discrete geometric objects such as points, lines, and polygons.
+- Points represent specific locations (e.g., cities, sampling sites), lines represent linear features (e.g., roads, rivers), and polygons represent areas (e.g., administrative boundaries, land parcels).
+- Vector data is used to represent discrete features and can store attribute information associated with each feature.
 
 ### Applications in GIS:
 
@@ -82,25 +82,25 @@ Different types of vector data commonly used in Geographic Information Systems (
 
 1. **Points**:
 
-   - Points represent specific locations on the Earth's surface or within a geographical area. Examples include:
+- Points represent specific locations on the Earth's surface or within a geographical area. Examples include:
 
-     - City locations
-     - Sampling sites
-     - GPS coordinates
+  - City locations
+  - Sampling sites
+  - GPS coordinates
 
 2. **Lines**:
    - Lines represent linear features and are composed of a sequence of connected points. Examples include:
 
-     - Roads and highways
-     - Rivers and streams
-     - Utility lines (e.g., pipelines, power lines)
+  - Roads and highways
+  - Rivers and streams
+  - Utility lines (e.g., pipelines, power lines)
 
 3. **Polygons**:
    - Polygons represent enclosed areas and are defined by a series of connected lines forming a closed loop. Examples include:
 
-     - Administrative boundaries (e.g., country borders, state boundaries)
-     - Land parcels
-     - Ecological zones
+  - Administrative boundaries (e.g., country borders, state boundaries)
+  - Land parcels
+  - Ecological zones
 
 4. **Multi-Points**:
    - Multi-points represent collections of individual points grouped together. Examples include:
@@ -225,6 +225,7 @@ Map.addLayer(featureCollection, {}, 'Feature Collection');
 - Open this code in GEE and change the division name to yours. Take a screenshot of your division map and upload it to github. Submit the repo link. 
 
 **Submssion link**: [Click here to sbumit via google form](https://docs.google.com/forms/d/e/1FAIpQLSfQZDJ2rmIbnNsuyt5Nf6txCaUL9qOwYGaRSBRjOCaM7qEK9w/viewform?usp=sf_link)
+
 **Dead line**: <span style="color: red;">10 March, 2024</span>
 
 
