@@ -80,7 +80,7 @@ In GIS applications, both raster and vector data are utilized for various purpos
 
 Different types of vector data commonly used in Geographic Information Systems (GIS) include:
 
-1. **Points**:
+**Points**:
 
  - Points represent specific locations on the Earth's surface or within a geographical area. Examples include:
 
@@ -88,7 +88,7 @@ Different types of vector data commonly used in Geographic Information Systems (
   - Sampling sites
   - GPS coordinates
 
-2. **Lines**:
+**Lines**:
 
    - Lines represent linear features and are composed of a sequence of connected points. Examples include:
 
@@ -96,7 +96,7 @@ Different types of vector data commonly used in Geographic Information Systems (
      - Rivers and streams
      - Utility lines (e.g., pipelines, power lines)
 
-3. **Polygons**:
+**Polygons**:
 
    - Polygons represent enclosed areas and are defined by a series of connected lines forming a closed loop. Examples include:
 
@@ -104,17 +104,17 @@ Different types of vector data commonly used in Geographic Information Systems (
   - Land parcels
   - Ecological zones
 
-4. **Multi-Points**:
+**Multi-Points**:
    - Multi-points represent collections of individual points grouped together. Examples include:
 
      - Sets of landmarks or features with multiple points of interest (e.g., tourist attractions within a park)
 
-5. **Multi-Lines**:
+**Multi-Lines**:
    - Multi-lines represent collections of individual lines grouped together. Examples include:
      - Transportation networks with multiple road segments forming a route
      - River networks with multiple streams or tributaries
 
-6. **Multi-Polygons**:
+**Multi-Polygons**:
    - Multi-polygons represent collections of individual polygons grouped together. Examples include:
 
      - Complex land use zones with multiple discrete areas (e.g., residential, commercial, industrial)
