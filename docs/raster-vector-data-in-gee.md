@@ -36,13 +36,13 @@ In computer graphics, two primary methods are used to represent images: **vector
 
 When we transition to the realm of Geographic Information Systems (GIS), both vector and raster data play essential roles in representing spatial information.
 
-1. **Raster Data** in GIS:
+**Raster Data** in GIS:
 
 - In GIS, raster data represents geographic phenomena as a grid of cells, where each cell has a value representing a certain attribute (e.g., elevation, temperature, land cover).
 - Satellite imagery, aerial photographs, and digital elevation models (DEMs) are common examples of raster data.
 - Raster data is suitable for continuous spatial phenomena where values change continuously across the landscape.
 
-2. **Vector Data** in GIS:
+**Vector Data** in GIS:
 
 - Vector data represents geographic features using discrete geometric objects such as points, lines, and polygons.
 - Points represent specific locations (e.g., cities, sampling sites), lines represent linear features (e.g., roads, rivers), and polygons represent areas (e.g., administrative boundaries, land parcels).
@@ -82,20 +82,22 @@ Different types of vector data commonly used in Geographic Information Systems (
 
 1. **Points**:
 
-- Points represent specific locations on the Earth's surface or within a geographical area. Examples include:
+ - Points represent specific locations on the Earth's surface or within a geographical area. Examples include:
 
   - City locations
   - Sampling sites
   - GPS coordinates
 
 2. **Lines**:
+
    - Lines represent linear features and are composed of a sequence of connected points. Examples include:
 
-  - Roads and highways
-  - Rivers and streams
-  - Utility lines (e.g., pipelines, power lines)
+     - Roads and highways
+     - Rivers and streams
+     - Utility lines (e.g., pipelines, power lines)
 
 3. **Polygons**:
+
    - Polygons represent enclosed areas and are defined by a series of connected lines forming a closed loop. Examples include:
 
   - Administrative boundaries (e.g., country borders, state boundaries)
