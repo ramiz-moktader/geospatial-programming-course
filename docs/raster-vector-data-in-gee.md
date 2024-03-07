@@ -7,7 +7,9 @@ Google Earth Engine is free for non-commercial and research purposes. You can cr
 
 2) [Fill this form and submit your applicaiton](https://signup.earthengine.google.com/#!/no_redirect)
 
-You can also [Watch this video.](https://www.youtube.com/watch?v=NQDSess-HBQ&t=85s) 
+You can also [Watch this video.](https://www.youtube.com/watch?v=NQDSess-HBQ&t=85s)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NQDSess-HBQ?si=a1ZL5hfO1NDPJWTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Raster and Vector data 
 
