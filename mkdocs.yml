@@ -15,6 +15,7 @@ nav:
      - Class 7 - Basic structure of an image: image-formation-class7.md
      - Class 8 - GIS data type and vector data in GEE: raster-vector-data-in-gee.md
      - Class 9 - GEE client VS Server: gee-client-server-side-class9.md
+     - Class 10 - GEE image collection: imgcollection-class10.md
 
 
 site_author: Ramiz moktader
