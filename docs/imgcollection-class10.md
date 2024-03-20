@@ -132,3 +132,14 @@ In a false color composite:
 - Denser plant growth: Darker red
 - Cities and exposed ground: Gray or tan
 - Water: Blue or black
+### **Assignment 10 ** 
+
+– Select an image collection of any Satellite, filter by boundary and date. Finally, select an image from the collection, and print the capture date of that image. Upload the code and code link, and screenshot in your github  repo. Submit your repo link.
+
+– Make a RGB composite from any image collection for your Upazila. Upload the code and code link, and screenshot in your github  repo. Submit your repo link. 
+
+– Make a False color composite from any image collection for your upazila. Upload the code and code link, and screenshot in your github  repo. Submit your repo link. 
+
+**Submision link**: Check your email
+
+**Dead line**: <span style="color: red;">17 March, 2024</span>
