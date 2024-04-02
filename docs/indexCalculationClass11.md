@@ -82,3 +82,14 @@ The difference between these bands emphasizes water features. High NDWI values i
 - **Shortwave-infrared (SWIR):** Burned areas have increased reflectance in SWIR compared to healthy vegetation.
 
 By exploiting this contrasting behavior, NBR helps identify burned areas. Lower NBR values suggest burn scars, as burned materials tend to reflect more SWIR and less NIR
+
+### **Assignment 11** 
+
+- Make a NDVI map of your upazila by using Landsat 9 imagery for 2022. Upload the code, code link, and screenshot in your github repo. Submit the repo link.- 3 
+- Make a NDWI map of your upazila by using Sentinel-2 imagery for 2023. Upload the code, code link, and screenshot in your github repo. Submit the repo link. -3
+- Make a NDSI map of your upazila by using Sentinel-2 imagery for 2021. Upload the code, code link, and screenshot in your github repo. Submit the repo link. -3
+- Calculate the maximum and minimum NDVI value of your NDVI map. Upload the code, code link, and screenshot in your github repo. Submit the repo link. -1
+
+**Submision link**: Check your email
+
+**Dead line**: <span style="color: red;">7 April, 2024</span>

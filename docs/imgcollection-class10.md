@@ -132,7 +132,7 @@ In a false color composite:
 - Denser plant growth: Darker red
 - Cities and exposed ground: Gray or tan
 - Water: Blue or black
-### **Assignment 10 ** 
+### **Assignment 10** 
 
 – Select an image collection of any Satellite, filter by boundary and date. Finally, select an image from the collection, and print the capture date of that image. Upload the code and code link, and screenshot in your github  repo. Submit your repo link.
 
