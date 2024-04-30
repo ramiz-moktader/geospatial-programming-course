@@ -18,6 +18,7 @@ nav:
      - Class 10 - GEE image collection: imgcollection-class10.md
      - Class 11 - Indices calculation from imagery: indexCalculationClass11.md
      - Class 12 - Value thresholding and area calculation : mapThreasholdingclass12.md
+     - Class 13 - Group Reducer and Zonal statistics  : groupReducerClass13.md
 
 
 site_author: Ramiz moktader
