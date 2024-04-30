@@ -17,7 +17,7 @@ nav:
      - Class 9 - GEE client VS Server: gee-client-server-side-class9.md
      - Class 10 - GEE image collection: imgcollection-class10.md
      - Class 11 - Indices calculation from imagery: indexCalculationClass11.md
-     - Class 12 - Indices calculation from imagery: mapThreasholdingclass12.md
+     - Class 12 - Value thresholding and area calculation : mapThreasholdingclass12.md
 
 
 site_author: Ramiz moktader
