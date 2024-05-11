@@ -19,6 +19,7 @@ nav:
      - Class 11 - Indices calculation from imagery: indexCalculationClass11.md
      - Class 12 - Value thresholding and area calculation : mapThreasholdingclass12.md
      - Class 13 - Group Reducer and Zonal statistics  : groupReducerClass13.md
+     - Class 14 - Exporting raster and vector data : exportingDataClass14.md
 
 
 site_author: Ramiz moktader
