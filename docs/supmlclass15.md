@@ -162,3 +162,11 @@ Unsupervised learning finds patterns or groupings in data without labeled exampl
    ```javascript
    Map.addLayer(result.randomVisualizer(), {}, 'Clusters');
    ```
+
+### **Assignmemnt 15**
+1. Do a supervised classification by using Sentinel-2 for your upazila, export the classified image, prepare fine-tuned map 
+2. Do a unsupervised classification by using Landsat-9 for your upazila, export the classified image, prepare fine-tuned map 
+
+**Submision link**: Check your email
+
+**Dead line**: <span style="color: red;"> 3 June, 2024 </span>
