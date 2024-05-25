@@ -144,3 +144,15 @@ Export.image.toDrive({
   folder: "geocoder"
 });
 ```
+
+### **Assignmemnt 14**
+1. Select a feature collection of 5 waterbodies and add a property by using 
+  map() method -4
+
+2. Map over a list and create a feature collection by passing null geometry to each element of that list -4
+
+3. Export the feature collection as CSV -2
+
+**Submision link**: Check your email
+
+**Dead line**: <span style="color: red;"> 31 May, 2024 </span>
