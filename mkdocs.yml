@@ -37,6 +37,7 @@ site_description: >-
 theme:
   name: material         
   logo: images/logo.png
+  favicon: images/logo.png
   features:
     
     - content.code.copy
