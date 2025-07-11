@@ -35,9 +35,8 @@ site_description: >-
 
 # Configuration
 theme:
-  name: material
-  icon:                                                     
-      logo: material/test-tube
+  name: material         
+  logo: images/logo.png
   features:
     
     - content.code.copy
