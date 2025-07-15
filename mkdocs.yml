@@ -36,7 +36,7 @@ site_description: >-
 # Configuration
 theme:
   name: material         
-  logo: images/logo.png
+  logo: images/logo-jpg.jpg
   favicon: images/logo.png
   features:
     
