@@ -73,8 +73,8 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 
 ### 💳 Enrollment & Payment Info
 
-* 🎓 Students: **BDT 1500**
-* 💼 Professionals: **BDT 3000**
+* 🎓 Students: **BDT 2000**
+* 💼 Professionals: **BDT 3500**
 * Payment via bKash: **01521486364 (Send Money)**
 
 📝 After payment, complete your registration through our [Enrollment Form](#) (replace with actual link).
