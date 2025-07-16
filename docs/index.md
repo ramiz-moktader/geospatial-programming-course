@@ -1,35 +1,129 @@
+# **Geospatial Programming Course Cohort-2**
 
-**Geospatial Programming Course Overview**
+This course is carefully designed to take you from zero coding knowledge to building professional geospatial projects—step by step, in your own language, Bengali. Whether you're a student, job seeker, or researcher, each class builds on the previous one to help you understand not just how to run code, but why it works.
 
-Welcome to the Geospatial Programming Course! This course is divided into two main parts. In the first part, we will cover the basic concepts of programming using the JavaScript programming language. In the second part, we will delve deep into the Google Earth Engine JS API. This table provides essential details for each class and will be updated over time.
+We go beyond tutorials and give you the logic, tools, and portfolio to become confident in programming, Google Earth Engine (GEE), and geospatial analysis. Below is a detailed breakdown of what you'll learn in each class.
 
-| Topic                                | Held At (Date)      | Total Participants | Class Materials Link                                  | Assignment Submission Link | Class Language |
-| ------------------------------------ | -------------------- | ------------------- | ------------------------------------------------------ | -------------------------- | --------------- |
-| **Pre-test on pre-programming concepts** | 31 December 2023    | 105                 | [Pre-programming concepts](pre-prog-basic.md)          | Date is over     | English         |
-| **Intro to Programming Language with JavaScript: Class 1**| 5 January 2024           | 73   | [Class 1-var, data type, comparison operator](intro-to-programming-with-js-class1.md)                                    | Check your email     | English  |
-| **Intro to Programming Language with JavaScript: Class 2**| 12 January 2024           | 60   | [Class 2- arithmetic operator, Conditional statement](conditional-statements-class2.md)                                    | Check your email     | Bangla  |
-| **Intro to Programming Language with JavaScript: Class 3**| 19 January 2024           | 38   | [Class 3- logical operator, loop](logical-operator-loop-class3.md)                                    | Check your email     | Bangla  |
-| **Intro to Programming Language with JavaScript: Class 4**| 27 January 2024           | 27   | [Class 4- Array](array-class4.md)                                    | Check your email     | Bangla  |
-| **Intro to Programming Language with JavaScript: Class 5**| 2 February 2024           | 23   | [Class 5- Function](function-class5.md)                                    | Check your email     | Bangla  |
+---
 
-### **List of all video contet to follow:** 
-Make sure you use the same email address that you gave during registration of the course. 
+## 📚 Course Structure & Class Modules
 
-1.  [Installing vs code and node js](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ)
-2.  [1st class part-1](https://drive.google.com/file/d/1Y1OiFRidijEs7S_u3yhuocXJkin_JXWP/view?usp=drive_link)
-3.  [1st class part-2]((https://drive.google.com/file/d/1jBoXTfc0hzYxJj92jcmAUUX1tg5Lnu3-/view?usp=drive_link))
-4.  [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0)
-5.  [2nd class](https://youtu.be/2oPc2RAzAt0)
-6.  [3rd class](https://youtu.be/TfZvwFouCjE)
+## 🔰 Module 1: Introduction to Programming with JavaScript
+
+* **Class 1: Code Begins – Variables, Data Types & Comparisons**
+* **Class 2: Making Decisions – Arithmetic & Conditional Statements**
+* **Class 3: Code That Repeats – Loops & Logical Operators**
+* **Class 4: Organize Everything – Introduction to Arrays**
+* **Class 5: Write Once, Use Anywhere – Mastering Functions**
+* **Class 6: Real-World Data – Understanding Objects**
+
+## 🌐 Module 2: Foundations of Google Earth Engine (GEE)
+
+* **Class 7: Inside the Image – Understanding Details of Digital Image Structure**
+* **Class 8: Beyond Pixels – GIS Data Types & Vector Data in GEE**
+* **Class 9: Power Split – GEE Client vs Server Explained**
+* **Class 10: Dive into Data – Working with Image Collections**
+* **Class 11: Seeing the Invisible – Calculating Indices (NDVI, NDWI, etc.)**
+* **Class 12: From Pixels to Insights – Thresholding & Area Calculations**
+* **Class 13: Big Picture Stats – Group Reducers & Zonal Statistics**
+* **Class 14: Take it With You – Exporting Raster & Vector Data**
+* **Class 15: Map Intelligence – Supervised vs Unsupervised Machine Learning**
+
+## 🛰️ Module 3: Real-World Applications in Remote Sensing
+
+* **Class 16: Land from Above – Land Use & Land Cover Classification**
+* **Class 17: Spot the Change – Change Detection Techniques**
+* **Class 18: Precision Mapping – Feature Extraction of Forest, Water & Urban Areas**
+
+## 🗺️ Module 4: Crafting Publication-Ready Maps Using QGIS
+
+* **Class 19: Styling with Purpose – Symbology, Colors & Legends in QGIS**
+* **Class 20: Map Composition – Grids, North Arrows & Scale Bars**
+* **Class 21: Polishing Maps – Fonts, Labels & Layout Design**
+* **Class 22: Export Like a Pro – High-Resolution Map Export Techniques**
+
+## 💼 Module 5: Building Your Geospatial Portfolio with GitHub
+
+* **Class 23:** Git & GitHub Basics: Creating and Hosting Projects
+* **Class 24:** Writing a README, Documenting Your Work, Going Public
+
+## 💡 What You'll Learn
+
+* ✅ **Programming Fundamentals** — Build a solid foundation in coding concepts from scratch.
+* ✅ **Google Earth Engine (GEE)** — Master cloud-based geospatial analysis at scale.
+* ✅ **Advanced Map Design** — Unlock hidden techniques for making powerful, story-driven maps.
+* ✅ **Portfolio Building** — Create a complete GitHub portfolio to showcase your real-world geospatial skills.
+* ✅ **Career-Ready Skills** — Become confident to explore any programming language after Part 1.
+
+### 📦 Course Structure
+
+* 🎥 18 Recorded Classes —  with 1-year full access to all videos.
+* 🎙️ 5 Live Interactive Sessions — Get real-time help and feedback.
+* 🧪 5 Hands-on Projects — Apply your learning to solve real problems.
+* 📝 20 Practical Assignments — Reinforce core concepts through practice.
+
+### 🏆 Special Benefits
+
+* 💵 **Top 3 Performers Get Refunds!**
+  * 1st Place: 100% Course Fee Refund
+  * 2nd Place: 70% Refund
+  * 3rd Place: 50% Refund
+* 📜 Certificate on Completion
+* 🔬 Chance to Work with Our Research Team
+
+### 💳 Enrollment & Payment Info
+
+* 🎓 Students: **BDT 1500**
+* 💼 Professionals: **BDT 3000**
+* Payment via bKash: **01521486364 (Send Money)**
+
+📝 After payment, complete your registration through our [Enrollment Form](#) (replace with actual link).
+
+---
+
+### 🚀 Ready to Start?
+
+This is your chance to break into one of the most in-demand tech skills —  **in your own language** .
+
+📩 **Seats are limited.** Enroll now and start your journey into geospatial programming today!
+
+➡️ Visit [geocodinglab.com](http://geocodinglab.com/) or email us for more information.
+
+
+
+### **List of all video contet to follow:**
+
+Make sure you use the same email address that you gave during registration of the course.
+
+1. [Installing vs code and node js](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ)
+2. [1st class part-1](https://drive.google.com/file/d/1Y1OiFRidijEs7S_u3yhuocXJkin_JXWP/view?usp=drive_link)
+3. [1st class part-2](https://drive.google.com/file/d/1jBoXTfc0hzYxJj92jcmAUUX1tg5Lnu3-/view?usp=drive_link))
+4. [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0)
+5. [2nd class](https://youtu.be/2oPc2RAzAt0)
+6. [3rd class](https://youtu.be/TfZvwFouCjE)
 7. [Creating GitHub account and asking your questions](https://www.youtube.com/watch?v=n6PiBM-cudM)
 8. [4th class](https://www.youtube.com/watch?v=2M7UNE9a4Ek)
 9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
 10. [6th class](https://www.youtube.com/watch?v=R97uPjvqbnc&feature=youtu.be)
 11. [7th class](https://youtu.be/xwlE6-lY2Mk)
-11. [Signup for Google Earth Engine account]()
+12. [Signup for Google Earth Engine account]()
 
-### Troubleshooting video 
+### Troubleshooting video
 
-1. [How to create JS file in VS Code-English](https://youtu.be/Fw851CKuyCM) 
+1. [How to create JS file in VS Code-English](https://youtu.be/Fw851CKuyCM)
 2. [Solving prompt-sync module not found-Bangla](https://www.youtube.com/watch?v=doIYvq4ZJxA&t=8s)
 
+Perfect! Here's **Module 4** with strong, professional  **headings only** , focusing on creating publication-ready maps using QGIS:
+
+---
+
+## 🗺️ Module 4: Crafting Publication-Ready Maps Using QGIS
+
+* **Class 19: Styling with Purpose – Symbology, Colors & Legends in QGIS**
+* **Class 20: Map Composition – Grids, North Arrows & Scale Bars**
+* **Class 21: Polishing Maps – Fonts, Labels & Layout Design**
+* **Class 22: Export Like a Pro – High-Resolution Map Export Techniques**
+
+---
+
+Ready for Module 5 (Portfolio & GitHub), or want a complete overview for your website/homepage next?
