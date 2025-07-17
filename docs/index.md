@@ -113,17 +113,6 @@ Make sure you use the same email address that you gave during registration of th
 1. [How to create JS file in VS Code-English](https://youtu.be/Fw851CKuyCM)
 2. [Solving prompt-sync module not found-Bangla](https://www.youtube.com/watch?v=doIYvq4ZJxA&t=8s)
 
-Perfect! Here's **Module 4** with strong, professional  **headings only** , focusing on creating publication-ready maps using QGIS:
 
----
 
-## 🗺️ Module 4: Crafting Publication-Ready Maps Using QGIS
 
-* **Class 19: Styling with Purpose – Symbology, Colors & Legends in QGIS**
-* **Class 20: Map Composition – Grids, North Arrows & Scale Bars**
-* **Class 21: Polishing Maps – Fonts, Labels & Layout Design**
-* **Class 22: Export Like a Pro – High-Resolution Map Export Techniques**
-
----
-
-Ready for Module 5 (Portfolio & GitHub), or want a complete overview for your website/homepage next?
