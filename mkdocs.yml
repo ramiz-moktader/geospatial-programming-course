@@ -127,6 +127,8 @@ extra_css:
 plugins:
   - search
   - mkdocs-video 
+     is_video: True
+     is_responsive: True
 # extra:
 #   generator: false
 copyright: |
