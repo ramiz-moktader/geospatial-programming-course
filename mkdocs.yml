@@ -127,9 +127,9 @@ extra_css:
 plugins:
   - search
   - mkdocs-video:
-      enabled: true
-      is_responsive: true
+      # enabled: true
+      # is_responsive: true
 # extra:
 #   generator: false
 copyright: |
-  &copy; 2024 <a href="https://github.com/ramiz-moktader/"  target="_blank" rel="noopener"> Ramiz moktader</a>
+  &copy; 2025 <a href="https://github.com/ramiz-moktader/"  target="_blank" rel="noopener"> GEO-CODING LAB</a>
