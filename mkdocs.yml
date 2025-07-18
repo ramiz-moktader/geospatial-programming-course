@@ -129,8 +129,8 @@ plugins:
   - mkdocs-video:
       # enabled: true
       is_responsive: true
-# extra:
-#   generator: false
+extra:
+  generator: false
 copyright: |
   &copy; 2025  GEO-CODING LAB</a> 
 # <a href="https://github.com/ramiz-moktader/"  target="_blank" rel="noopener">

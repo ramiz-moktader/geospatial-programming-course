@@ -81,7 +81,7 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632) (replace with actual link).
 
 ---
-### Watch a Class of the Course: 
+### Watch a sample class of the Course: 
 ![type:video](https://www.youtube.com/embed/xwlE6-lY2Mk)
 ### 🚀 Ready to Start?
 
