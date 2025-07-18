@@ -1,0 +1,1240 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="GEOCODING LAB">
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../intro-to-programming-with-js-class1/">
+      
+      
+      <link rel="icon" href="../images/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Pre programming Basic - Intro to programming</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#geospatial-programming-learning-course" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Intro to programming" class="md-header__button md-logo" aria-label="Intro to programming" data-md-component="logo">
+      
+  <img src="../images/logo-jpg.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Intro to programming
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pre programming Basic
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Intro to programming" class="md-nav__button md-logo" aria-label="Intro to programming" data-md-component="logo">
+      
+  <img src="../images/logo-jpg.jpg" alt="logo">
+
+    </a>
+    Intro to programming
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Pre programming Basic
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pre programming Basic
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#journey-to-geospatial-programming-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Journey to Geospatial Programming Learning
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Journey to Geospatial Programming Learning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basic-data-types-in-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Data Types in Programming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-type-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Number Type Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uses-of-boolean-in-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uses of Boolean in Programming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Variable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#declaring-a-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Declaring a Variable
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arithmetic-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arithmetic Operators
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arithmetic Operators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-arithmetic-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Arithmetic Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-comments-inside-code-for-clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Comments inside Code for Clarity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Comments inside Code for Clarity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Intro to programming with JavaScript
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Intro to programming with JavaScript
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro-to-programming-with-js-class1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 1 - var, data type, comparison operator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conditional-statements-class2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 2 - Arithmetic operators, conditional statements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logical-operator-loop-class3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 3 - Logical operator, loop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../array-class4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 4 - Arrary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../function-class5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    class 5 - Function
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../js-objects-class6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 6 - Object
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Intro to GIS and GEE
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Intro to GIS and GEE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image-formation-class7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 7 - Basic structure of an image
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../raster-vector-data-in-gee/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 8 - GIS data type and vector data in GEE
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gee-client-server-side-class9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 9 - GEE client VS Server
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imgcollection-class10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 10 - GEE image collection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indexCalculationClass11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 11 - Indices calculation from imagery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapThreasholdingclass12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 12 - Value thresholding and area calculation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../groupReducerClass13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 13 - Group Reducer and Zonal statistics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exportingDataClass14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 14 - Exporting raster and vector data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../supmlclass15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 15 - Supervised and unSupervised Machine learning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#journey-to-geospatial-programming-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Journey to Geospatial Programming Learning
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Journey to Geospatial Programming Learning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basic-data-types-in-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Data Types in Programming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-type-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Number Type Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uses-of-boolean-in-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uses of Boolean in Programming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Variable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#declaring-a-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Declaring a Variable
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arithmetic-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arithmetic Operators
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arithmetic Operators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-arithmetic-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Arithmetic Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-comments-inside-code-for-clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Comments inside Code for Clarity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Comments inside Code for Clarity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div><h1 id="geospatial-programming-learning-course">Geospatial Programming Learning Course<a class="headerlink" href="#geospatial-programming-learning-course" title="Permanent link">¶</a></h1>
+<p><strong>Pre-reading to start learning programming. This article covers the topics for the pre-test.</strong></p>
+<h2 id="journey-to-geospatial-programming-learning">Journey to Geospatial Programming Learning<a class="headerlink" href="#journey-to-geospatial-programming-learning" title="Permanent link">¶</a></h2>
+<p>Welcome, learners! This is the very first step of learning programming. To get your hands on geospatial programming, the first step is to go through the basic concepts of a programming language. The fundamental blocks of all programming languages are more or less similar. In this article, we will go through the very basic fundamentals required to start our journey to geospatial programming. So let's get started!</p>
+<h3 id="data-type">Data Type<a class="headerlink" href="#data-type" title="Permanent link">¶</a></h3>
+<p>There are two basic types of data: <strong>quantitative</strong> and <strong>qualitative</strong>. Quantitative data is anything we can count, measure, or quantify with numbers. Qualitative data represents information in terms of language or description, which cannot be measured or counted.</p>
+<h3 id="basic-data-types-in-programming">Basic Data Types in Programming<a class="headerlink" href="#basic-data-types-in-programming" title="Permanent link">¶</a></h3>
+<p>Apart from numbers and text, we use another basic type of data in programming languages called boolean. Boolean has only two values: true and false.</p>
+<h3 id="number-type-data">Number Type Data<a class="headerlink" href="#number-type-data" title="Permanent link">¶</a></h3>
+<p>In programming, we primarily use three basic types of numbers: integer or whole number, decimal, and float.</p>
+<ul>
+<li>Integer and Decimal</li>
+</ul>
+<p>All positive, negative whole numbers including 0 are integers. A decimal number expresses fractions or whole numbers using a decimal point.</p>
+<ul>
+<li>String</li>
+</ul>
+<p>In programming, a "string" is a way to handle text or qualitative data. It could be a single word, a sentence, or even a collection of paragraphs. Strings are just sequences of characters, and they are handy for dealing with any kind of text-related information in programming.</p>
+<ul>
+<li>Boolean</li>
+</ul>
+<p>Boolean refers to a data type that can have one of two values: true or false. Boolean values are often used in conditional statements and expressions to make decisions in computer programs.</p>
+<h3 id="uses-of-boolean-in-programming">Uses of Boolean in Programming<a class="headerlink" href="#uses-of-boolean-in-programming" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>Decision Making:</strong> Boolean helps programs decide what to do based on conditions.</li>
+<li><strong>Comparison:</strong> It allows us to compare things, like whether one number is bigger than another.</li>
+<li><strong>Logical Operation:</strong> Boolean helps express logical relationships.</li>
+<li><strong>Looping:</strong> In programming, Boolean is used to repeat tasks until a condition is no longer true.</li>
+</ul>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">¶</a></h3>
+<p>Let <code>x = 9</code>, <code>y = 10</code>. Now we will compare if <code>x</code> and <code>y</code> have the same value. Is <code>x == y</code>? false.</p>
+<h3 id="variable">Variable<a class="headerlink" href="#variable" title="Permanent link">¶</a></h3>
+<p>A variable is like a storage box in which we can keep different types of information. It's associated with a symbolic name and may have a memory address. The name allows referencing the data, and values can change during execution.</p>
+<h4 id="declaring-a-variable">Declaring a Variable<a class="headerlink" href="#declaring-a-variable" title="Permanent link">¶</a></h4>
+<p>In most programming languages, declaring a variable involves giving it a name and specifying the type of data it will hold.</p>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">// Declare a variable named 'age' and assign the value 25 to it</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">age</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">25</span>
+</span></code></pre></div>
+<h3 id="arithmetic-operators">Arithmetic Operators<a class="headerlink" href="#arithmetic-operators" title="Permanent link">¶</a></h3>
+<p>Arithmetic operators are symbols used in programming to perform mathematical calculations on numerical data. They include addition, subtraction, multiplication, division, and modulus.</p>
+<h4 id="basic-arithmetic-examples">Basic Arithmetic Examples<a class="headerlink" href="#basic-arithmetic-examples" title="Permanent link">¶</a></h4>
+<ul>
+<li><strong>Addition:</strong> <code>var total = 5 + 3; // total will be 8.</code></li>
+<li><strong>Subtraction:</strong> <code>var difference = 10 - 4; // difference will be 6.</code></li>
+<li><strong>Multiplication:</strong> <code>var product = 2 * 6; // product will be 12.</code></li>
+<li><strong>Division:</strong> <code>var quotient = 8 / 2; // quotient will be 4.</code></li>
+<li><strong>Modulus:</strong> <code>var remainder = 10 % 3; // remainder will be 1.</code></li>
+</ul>
+<h3 id="adding-comments-inside-code-for-clarity">Adding Comments inside Code for Clarity<a class="headerlink" href="#adding-comments-inside-code-for-clarity" title="Permanent link">¶</a></h3>
+<p>A comment in programming is a piece of text that is not executed as part of the program but is included for human readers to understand the code. Comments provide explanations, notes, or reminders within the code to make it more readable and maintainable.</p>
+<h4 id="example_1">Example<a class="headerlink" href="#example_1" title="Permanent link">¶</a></h4>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// This is a single-line comment </span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="cm">/*</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="cm">This is a</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="cm">multi-line comment</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="cm">*/</span>
+</span></code></pre></div>
+<p>Congratulations on completing the first step of your geospatial programming journey! Keep exploring and learning. Now you are ready to delve into any programming language.</p>
+<!-- To participate in the final part of the **Geospatial Programming course**, you have to [take the exam](https://forms.gle/iNzgfHK9aPni83E76) and score 5 out of 10. All the questions are based on this article. Some of you may find them very easy. -->
+
+<!-- **Points to be noted:**
+- Before taking the exam, go through the above article carefully.
+- Each participant can submit answers only once.
+- To proceed to the next step of the course, each participant must obtain a minimum of 5 out of 10.
+- The last date of submission is December 31, 2023.
+- Only eligible participants will be contacted via email for the next steps.
+
+--- -->
+
+<p><strong>Join our <a href="https://www.facebook.com/groups/902693884377077/">Facebook group</a> for discussions and support. Enroll in the cohort-2 of Geospatial Programming Course <a href="https://forms.gle/Vfn5vH63y2apLHQd9">Google Form</a>.</strong></p>
+<p><strong>Contact:</strong> <a href="mailto:geocoder.contact@gmail.com">geocoder.contact@gmail.com</a></p>
+<p><strong>© Geocodinglab.com</strong></p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../intro-to-programming-with-js-class1/" class="md-footer__link md-footer__link--next" aria-label="Next: Class 1 - var, data type, comparison operator">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Class 1 - var, data type, comparison operator
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2025  GEO-CODING LAB</a> 
+
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.footer", "navigation.instant", "navigation.tracking", "navigation.top", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

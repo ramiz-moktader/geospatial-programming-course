@@ -1,0 +1,1146 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="GEOCODING LAB">
+      
+      
+      
+        <link rel="prev" href="../pre-prog-basic/">
+      
+      
+        <link rel="next" href="../conditional-statements-class2/">
+      
+      
+      <link rel="icon" href="../images/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Class 1 - var, data type, comparison operator - Intro to programming</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#variable" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Intro to programming" class="md-header__button md-logo" aria-label="Intro to programming" data-md-component="logo">
+      
+  <img src="../images/logo-jpg.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Intro to programming
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Class 1 - var, data type, comparison operator
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Intro to programming" class="md-nav__button md-logo" aria-label="Intro to programming" data-md-component="logo">
+      
+  <img src="../images/logo-jpg.jpg" alt="logo">
+
+    </a>
+    Intro to programming
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pre-prog-basic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pre programming Basic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Intro to programming with JavaScript
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Intro to programming with JavaScript
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Class 1 - var, data type, comparison operator
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 1 - var, data type, comparison operator
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#declaring-variable-in-js" class="md-nav__link">
+    <span class="md-ellipsis">
+      Declaring Variable in JS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-ram-handles-variable-addresses" class="md-nav__link">
+    <span class="md-ellipsis">
+      How RAM Handles Variable Addresses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#variable-naming-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable Naming Rules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Data Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-type-conversion-in-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Type Conversion in JavaScript:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison-operator-in-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison operator in JavaScript
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conditional-statements-class2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 2 - Arithmetic operators, conditional statements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logical-operator-loop-class3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 3 - Logical operator, loop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../array-class4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 4 - Arrary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../function-class5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    class 5 - Function
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../js-objects-class6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 6 - Object
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Intro to GIS and GEE
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Intro to GIS and GEE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image-formation-class7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 7 - Basic structure of an image
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../raster-vector-data-in-gee/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 8 - GIS data type and vector data in GEE
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gee-client-server-side-class9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 9 - GEE client VS Server
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imgcollection-class10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 10 - GEE image collection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indexCalculationClass11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 11 - Indices calculation from imagery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapThreasholdingclass12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 12 - Value thresholding and area calculation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../groupReducerClass13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 13 - Group Reducer and Zonal statistics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exportingDataClass14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 14 - Exporting raster and vector data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../supmlclass15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 15 - Supervised and unSupervised Machine learning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#declaring-variable-in-js" class="md-nav__link">
+    <span class="md-ellipsis">
+      Declaring Variable in JS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-ram-handles-variable-addresses" class="md-nav__link">
+    <span class="md-ellipsis">
+      How RAM Handles Variable Addresses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#variable-naming-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable Naming Rules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Data Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-type-conversion-in-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Type Conversion in JavaScript:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison-operator-in-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison operator in JavaScript
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Class 1 - var, data type, comparison operator</h1>
+
+<div><p>At the very first class, we discuss about the below topics:</p>
+<ul>
+<li>
+<p><strong>Variable in JavaScript</strong></p>
+</li>
+<li>
+<p><strong>Data Types in JavaScript</strong></p>
+</li>
+<li><strong>Data Type Conversion in JavaScript</strong></li>
+<li><strong>Comparison Operators in JavaScript</strong></li>
+</ul>
+<p>The ultimate goal of this course is to gain proficiency in the Google Earth Engine JavaScript API, from basic to advanced concepts. Recognizing the importance of understanding fundamental programming concepts as a prerequisite, the course begins with JavaScript to build a solid foundation in programming. This approach ensures that participants are well-equipped with the necessary skills before exploring the intricacies of the Google Earth Engine JavaScript API. Let's get started! </p>
+<h3 id="variable">Variable<a class="headerlink" href="#variable" title="Permanent link">¶</a></h3>
+<p>In programming, a variable is like a storage container that holds a value. It allows you to store and manipulate data within your code.</p>
+<h3 id="declaring-variable-in-js">Declaring Variable in JS<a class="headerlink" href="#declaring-variable-in-js" title="Permanent link">¶</a></h3>
+<p>In JavaScript, you can declare a variable using the <code>var</code>, <code>let</code>, or <code>const</code> keyword. For GEE (Google Earth Engine), it's recommended to use <strong><code>var</code></strong>for compatibility with older browsers.</p>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">myVariable</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">42</span><span class="p">;</span><span class="w"> </span><span class="c1">// Declaration and assignment</span>
+</span></code></pre></div>
+<p>In the above example, <code>myVariable</code> is declared using the <code>var</code> keyword and assigned the value <code>42</code>. This variable can now be used to store and manipulate data in the program.</p>
+<h3 id="how-ram-handles-variable-addresses">How RAM Handles Variable Addresses<a class="headerlink" href="#how-ram-handles-variable-addresses" title="Permanent link">¶</a></h3>
+<p>Behind the scenes, when a variable is declared, the computer's memory (RAM - Random Access Memory) plays a crucial role. RAM is a form of volatile memory that stores data and machine code currently being used and processed by the computer.</p>
+<p>When a variable is declared, a specific portion of the computer's memory is allocated to store its value. The variable name acts as a reference or label for that memory location. This memory location has a unique address that the program uses to retrieve or update the stored value.</p>
+<h3 id="variable-naming-rules">Variable Naming Rules<a class="headerlink" href="#variable-naming-rules" title="Permanent link">¶</a></h3>
+<ol>
+<li>
+<p>Variable names are case-sensitive (e.g., <code>myVariable</code> is different from <code>myvariable</code>).</p>
+</li>
+<li>
+<p>Variable names can include letters (a-z), numbers (0-9), underscores (_), and dollar signs ($).</p>
+</li>
+<li>
+<p>They cannot start with a number (e.g.,<code>person2</code> is allowed, but <code>2person</code> is <strong>not allowed</strong>).</p>
+</li>
+</ol>
+<h3 id="basic-data-types">Basic Data Types<a class="headerlink" href="#basic-data-types" title="Permanent link">¶</a></h3>
+<p><strong>Text/String:</strong>
+- Used for representing textual data.
+- Declared using single (<code>'</code>) or double (<code>"</code>) quotes.</p>
+<p><strong>Number:</strong>
+- Used for representing numerical data, both integers and floating-point numbers.</p>
+<p><strong>Boolean:</strong>
+- Represents a logical entity and can have only two values: <code>true</code> or <code>false</code>.</p>
+<p>Certainly! Let's simplify and make the explanation more concise:</p>
+<p>Certainly! Let's include <code>toString()</code> in the explanation:</p>
+<h3 id="data-type-conversion-in-javascript">Data Type Conversion in JavaScript:<a class="headerlink" href="#data-type-conversion-in-javascript" title="Permanent link">¶</a></h3>
+<ol>
+<li><strong>Automatic Type Conversion (Coercion):</strong>
+   JavaScript automatically converts data types during operations.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">5</span><span class="p">;</span><span class="w">        </span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"10"</span><span class="p">;</span><span class="c1">//10 is stroed as text      </span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kd">var</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">num</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">str</span><span class="p">;</span><span class="w">  </span><span class="c1">//convert the data type of 5 from number to string, and then add with "10"</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span><span class="w">  </span><span class="c1">// "510"</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Manual Type Conversion:</strong>
+   Developers can use builtin or custom functions for manual conversions.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">strNum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"15"</span><span class="p">;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Number</span><span class="p">(</span><span class="nx">strNum</span><span class="p">);</span><span class="w">  </span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">num</span><span class="p">);</span><span class="w">  </span><span class="c1">// 15</span>
+</span></code></pre></div>
+<ol>
+<li><strong>String to Number:</strong>
+   Convert strings to numbers using <code>Number()</code>, <code>parseInt()</code>, or <code>parseFloat()</code>.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">strNum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"20"</span><span class="p">;</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">num1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Number</span><span class="p">(</span><span class="nx">strNum</span><span class="p">);</span><span class="w">       </span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="kd">var</span><span class="w"> </span><span class="nx">num2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">parseInt</span><span class="p">(</span><span class="nx">strNum</span><span class="p">);</span><span class="w">     </span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="kd">var</span><span class="w"> </span><span class="nx">num3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">parseFloat</span><span class="p">(</span><span class="nx">strNum</span><span class="p">);</span><span class="w">   </span>
+</span></code></pre></div>
+<ol>
+<li><strong>Number to String:</strong>
+   Change numbers to strings by concatenating with an empty string, using <code>String()</code>, or <code>toString()</code> function.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">var</span><span class="w"> </span><span class="nx">num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">25</span><span class="p">;</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kd">var</span><span class="w"> </span><span class="nx">str1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">num</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">""</span><span class="p">;</span><span class="w">       </span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="kd">var</span><span class="w"> </span><span class="nx">str2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">String</span><span class="p">(</span><span class="nx">num</span><span class="p">);</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="kd">var</span><span class="w"> </span><span class="nx">str3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">num</span><span class="p">.</span><span class="nx">toString</span><span class="p">();</span><span class="w">     </span>
+</span></code></pre></div>
+<p>Using <code>toString()</code> is another way to convert a number to a string, providing flexibility and options for developers.</p>
+<h3 id="comparison-operator-in-javascript">Comparison operator in JavaScript<a class="headerlink" href="#comparison-operator-in-javascript" title="Permanent link">¶</a></h3>
+<p>In JavaScript, comparison operators are used to compare values and return a Boolean result (true or false). Here's a brief overview of some common comparison operators:</p>
+<ol>
+<li><strong>Equal (==):</strong> Checks if two values are equal, but it performs type coercion, meaning it may convert the values to the same data type before making the comparison.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="mf">5</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">'5'</span><span class="p">;</span><span class="w"> </span><span class="c1">// true (coerced equality)</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Strict Equal (===):</strong> Compares both value and data type, ensuring that both are identical.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="mf">5</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">'5'</span><span class="p">;</span><span class="w"> </span><span class="c1">// false (strict equality)</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Not Equal (!=) and Strict Not Equal (!==):</strong> Similar to equal operators but negated.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="mf">5</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s1">'5'</span><span class="p">;</span><span class="w">  </span><span class="c1">// false (coerced inequality)</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="mf">5</span><span class="w"> </span><span class="o">!==</span><span class="w"> </span><span class="s1">'5'</span><span class="p">;</span><span class="w"> </span><span class="c1">// true (strict inequality)</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Greater Than (&gt;):</strong> Checks if the left operand is greater than the right operand.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="mf">10</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">5</span><span class="p">;</span><span class="w"> </span><span class="c1">// true</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Less Than (&lt;):</strong> Checks if the left operand is less than the right operand.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="mf">3</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mf">7</span><span class="p">;</span><span class="w"> </span><span class="c1">// true</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Greater Than or Equal (&gt;=) and Less Than or Equal (&lt;=):</strong> Check if the left operand is greater than or equal to, or less than or equal to, the right operand.</li>
+</ol>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="mf">8</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mf">8</span><span class="p">;</span><span class="w"> </span><span class="c1">// true</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="mf">4</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mf">2</span><span class="p">;</span><span class="w"> </span><span class="c1">// false</span>
+</span></code></pre></div>
+<p>These comparison operators are often used in conditional statements and expressions to control the flow of a program. They play a crucial role in decision-making processes. </p>
+<p>In this course, we will focus only those parts of JS which are required to learn GEE JS API. 
+If you are interested to learn JS you can find at <a href="https://www.w3schools.com/Js/">w3schools.com</a>,
+<a href="https://developer.mozilla.org/en-US/docs/Web/javascript">Mozila foundation</a>, <a href="https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/">Freecodecamp</a>. </p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../pre-prog-basic/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pre programming Basic">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Pre programming Basic
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../conditional-statements-class2/" class="md-footer__link md-footer__link--next" aria-label="Next: Class 2 - Arithmetic operators, conditional statements">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Class 2 - Arithmetic operators, conditional statements
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2025  GEO-CODING LAB</a> 
+
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.footer", "navigation.instant", "navigation.tracking", "navigation.top", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

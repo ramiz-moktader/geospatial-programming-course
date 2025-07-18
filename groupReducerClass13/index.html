@@ -1,0 +1,1308 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="GEOCODING LAB">
+      
+      
+      
+        <link rel="prev" href="../mapThreasholdingclass12/">
+      
+      
+        <link rel="next" href="../exportingDataClass14/">
+      
+      
+      <link rel="icon" href="../images/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Class 13 - Group Reducer and Zonal statistics - Intro to programming</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#class-13" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Intro to programming" class="md-header__button md-logo" aria-label="Intro to programming" data-md-component="logo">
+      
+  <img src="../images/logo-jpg.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Intro to programming
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Class 13 - Group Reducer and Zonal statistics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Intro to programming" class="md-nav__button md-logo" aria-label="Intro to programming" data-md-component="logo">
+      
+  <img src="../images/logo-jpg.jpg" alt="logo">
+
+    </a>
+    Intro to programming
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pre-prog-basic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pre programming Basic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Intro to programming with JavaScript
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Intro to programming with JavaScript
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro-to-programming-with-js-class1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 1 - var, data type, comparison operator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conditional-statements-class2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 2 - Arithmetic operators, conditional statements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logical-operator-loop-class3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 3 - Logical operator, loop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../array-class4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 4 - Arrary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../function-class5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    class 5 - Function
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../js-objects-class6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 6 - Object
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Intro to GIS and GEE
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Intro to GIS and GEE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image-formation-class7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 7 - Basic structure of an image
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../raster-vector-data-in-gee/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 8 - GIS data type and vector data in GEE
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gee-client-server-side-class9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 9 - GEE client VS Server
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imgcollection-class10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 10 - GEE image collection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indexCalculationClass11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 11 - Indices calculation from imagery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapThreasholdingclass12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 12 - Value thresholding and area calculation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Class 13 - Group Reducer and Zonal statistics
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 13 - Group Reducer and Zonal statistics
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-group-reducer-in-google-earth-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to Group Reducer in Google Earth Engine
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-group-reducer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Group Reducer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Understanding Group Reducer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-grouping" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Grouping?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-a-reducer" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a Reducer?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#group-reducer-in-gee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Group Reducer in GEE:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-reducecolumns-works-on-feature-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      How reduceColumns Works on Feature Collections
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How reduceColumns Works on Feature Collections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syntax:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-principle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Working Principle:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-group-reducer-for-raster-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to Group Reducer for Raster Images:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-the-group-reducer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding the Group Reducer:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exportingDataClass14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 14 - Exporting raster and vector data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../supmlclass15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class 15 - Supervised and unSupervised Machine learning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-group-reducer-in-google-earth-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to Group Reducer in Google Earth Engine
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-group-reducer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Group Reducer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Understanding Group Reducer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-grouping" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Grouping?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-a-reducer" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a Reducer?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#group-reducer-in-gee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Group Reducer in GEE:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-reducecolumns-works-on-feature-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      How reduceColumns Works on Feature Collections
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How reduceColumns Works on Feature Collections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syntax:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-principle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Working Principle:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-group-reducer-for-raster-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to Group Reducer for Raster Images:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-the-group-reducer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding the Group Reducer:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div><h1 id="class-13">Class 13<a class="headerlink" href="#class-13" title="Permanent link">¶</a></h1>
+<h3 id="introduction-to-group-reducer-in-google-earth-engine">Introduction to Group Reducer in Google Earth Engine<a class="headerlink" href="#introduction-to-group-reducer-in-google-earth-engine" title="Permanent link">¶</a></h3>
+<p>In Google Earth Engine (GEE), the Group Reducer is a powerful tool used to perform statistical computations on grouped data within feature collections or tables. This functionality allows users to aggregate data based on specific groupings, such as administrative boundaries, land cover types, or any other categorical variable present in the dataset. By applying reducers to grouped data, analysts can derive valuable insights and summaries for further analysis and visualization.</p>
+<h3 id="understanding-group-reducer">Understanding Group Reducer<a class="headerlink" href="#understanding-group-reducer" title="Permanent link">¶</a></h3>
+<h4 id="what-is-grouping">What is Grouping?<a class="headerlink" href="#what-is-grouping" title="Permanent link">¶</a></h4>
+<p>Grouping refers to the process of categorizing data based on common attributes or values within a specified field. For instance, if we have a feature collection representing administrative districts, grouping the data by district name would create distinct groups, with each group containing features associated with a particular district.</p>
+<h4 id="what-is-a-reducer">What is a Reducer?<a class="headerlink" href="#what-is-a-reducer" title="Permanent link">¶</a></h4>
+<p>A reducer is a function used to aggregate data within a feature collection or table. Common reducers include calculating statistics such as mean, median, sum, standard deviation, etc. Reducers can operate on individual values or groups of values within the dataset.</p>
+<h4 id="group-reducer-in-gee">Group Reducer in GEE:<a class="headerlink" href="#group-reducer-in-gee" title="Permanent link">¶</a></h4>
+<p>The Group Reducer in GEE combines the concepts of grouping and reducing, allowing users to calculate aggregate statistics for each group within a feature collection. It enables users to specify the field for grouping and apply a reducer function to compute statistics for each group.</p>
+<h3 id="how-reducecolumns-works-on-feature-collections">How <code>reduceColumns</code> Works on Feature Collections<a class="headerlink" href="#how-reducecolumns-works-on-feature-collections" title="Permanent link">¶</a></h3>
+<p>The <code>reduceColumns</code> function in GEE is used to aggregate data across the columns of a feature collection or table. It allows users to specify selectors (columns) on which to perform the reduction operation and applies a reducer function to compute the result.</p>
+<h4 id="syntax">Syntax:<a class="headerlink" href="#syntax" title="Permanent link">¶</a></h4>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">featureCollection</span><span class="p">.</span><span class="nx">reduceColumns</span><span class="p">({</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">selectors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"selector1"</span><span class="p">,</span><span class="w"> </span><span class="s2">"selector2"</span><span class="p">,</span><span class="w"> </span><span class="p">...],</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nx">reducer</span><span class="o">:</span><span class="w"> </span><span class="nx">ee</span><span class="p">.</span><span class="nx">Reducer</span><span class="p">.</span><span class="kd">function</span><span class="p">()</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">});</span>
+</span></code></pre></div>
+<h4 id="working-principle">Working Principle:<a class="headerlink" href="#working-principle" title="Permanent link">¶</a></h4>
+<ol>
+<li><strong>Selectors</strong>:</li>
+<li>
+<p>Selectors are the columns or properties within the feature collection on which the reduction operation will be performed. Users specify the selectors as an array of strings.</p>
+</li>
+<li>
+<p><strong>Reducer</strong>:</p>
+</li>
+<li>
+<p>The reducer defines the operation to be applied to the selected columns. It could be a basic statistical function like mean, sum, median, or a custom reducer function.</p>
+</li>
+<li>
+<p><strong>Reduction Operation</strong>:</p>
+</li>
+<li>
+<p>The <code>reduceColumns</code> function aggregates the data across the specified selectors using the provided reducer. It computes the result for each selector, producing a single value for each.</p>
+</li>
+<li>
+<p><strong>Output</strong>:</p>
+</li>
+<li>The output of <code>reduceColumns</code> is a dictionary-like object containing the computed result for each selector.</li>
+</ol>
+<h3 id="example"><strong>Example</strong><a class="headerlink" href="#example" title="Permanent link">¶</a></h3>
+<p>Suppose we have a <code>featureCollection</code> or shapefile named <code>table</code>, containing numerical values in the columns "F_TL" and "M_TL", and text values in the column "ADM2_NAME". Now, let's see how we can apply group reducers for the columns holding numerical values.</p>
+<p><strong><a href="https://data.humdata.org/dataset/cod-ps-bgd/resource/f23d4da2-e473-4960-9d94-37df92c8d044">Download the dummy data set from here</a></strong>
+</p><div class="language-javascript highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// Define the featureCollection or shapefile named table</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="c1">// var table = ...</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1">// Perform the reduction operation</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="kd">var</span><span class="w"> </span><span class="nx">reducedVal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">table</span><span class="p">.</span><span class="nx">reduceColumns</span><span class="p">({</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="nx">selectors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"F_TL"</span><span class="p">,</span><span class="s2">"M_TL"</span><span class="p">,</span><span class="s2">"ADM2_NAME"</span><span class="p">],</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="nx">reducer</span><span class="o">:</span><span class="w"> </span><span class="nx">ee</span><span class="p">.</span><span class="nx">Reducer</span><span class="p">.</span><span class="nx">mean</span><span class="p">().</span><span class="nx">repeat</span><span class="p">(</span><span class="mf">2</span><span class="p">).</span><span class="nx">group</span><span class="p">({</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="nx">groupField</span><span class="o">:</span><span class="w"> </span><span class="mf">2</span><span class="p">,</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="nx">groupName</span><span class="o">:</span><span class="w"> </span><span class="s2">"District"</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">  </span><span class="p">})</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="p">});</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Selectors</strong>:</li>
+<li>
+<p>The <code>selectors</code> parameter specifies which columns of the feature collection (<code>table</code> in this case) to include in the reduction operation. In this code, the columns "F_TL" and "M_TL" will be reduced.</p>
+</li>
+<li>
+<p><strong>Reducer</strong>:</p>
+</li>
+<li>
+<p>The <code>reducer</code> parameter defines the operation to be applied to the selected columns. In this code:</p>
+<ul>
+<li><code>ee.Reducer.mean()</code> specifies that the mean (average) of the values should be calculated.</li>
+<li><code>.repeat(2)</code> indicates that the mean operation should be repeated twice. This means that for each selected column, the mean will be calculated twice.</li>
+<li><code>.group({ groupField: 2, groupName: "District" })</code> specifies that the results should be grouped by the values in the "ADM2_NAME" column, which contains the names of districts. Each group will be assigned the name "District".</li>
+</ul>
+</li>
+<li>
+<p><strong>Output</strong>:</p>
+</li>
+<li>The result of the reduction operation is stored in the variable <code>reducedVal</code>. It contains the aggregated statistics for each district (group) within the feature collection. The statistics include the mean values of "F_TL" and "M_TL" for each district.</li>
+</ol>
+<h3 id="introduction-to-group-reducer-for-raster-images"><strong>Introduction to Group Reducer for Raster Images:</strong><a class="headerlink" href="#introduction-to-group-reducer-for-raster-images" title="Permanent link">¶</a></h3>
+<p>In Google Earth Engine (GEE), the group reducer is a powerful tool used to aggregate and summarize data within raster images based on specific criteria, such as land cover classes or other categorical variables. It allows users to efficiently group and analyze pixel values within an image, providing valuable insights into the spatial distribution of features. Let's see an example: </p>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// Define the region of interest (ROI)</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="c1">// var roi =..........;</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1">// Import the "ESA/WorldCover/v200" image collection and clip to ROI</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="kd">var</span><span class="w"> </span><span class="nx">img</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ee</span><span class="p">.</span><span class="nx">ImageCollection</span><span class="p">(</span><span class="s2">"ESA/WorldCover/v200"</span><span class="p">)</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">            </span><span class="p">.</span><span class="nx">first</span><span class="p">().</span><span class="nx">clip</span><span class="p">(</span><span class="nx">roi</span><span class="p">);</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="c1">// Calculate pixel area and add bands</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="kd">var</span><span class="w"> </span><span class="nx">areaImage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ee</span><span class="p">.</span><span class="nx">Image</span><span class="p">.</span><span class="nx">pixelArea</span><span class="p">().</span><span class="nx">addBands</span><span class="p">(</span><span class="nx">img</span><span class="p">);</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="c1">// Reduce regions to aggregate pixel area by land cover class within ROI</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="kd">var</span><span class="w"> </span><span class="nx">lcArea</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">areaImage</span><span class="p">.</span><span class="nx">reduceRegions</span><span class="p">({</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">                </span><span class="nx">collection</span><span class="o">:</span><span class="w"> </span><span class="nx">roi</span><span class="p">,</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">                </span><span class="nx">reducer</span><span class="o">:</span><span class="w"> </span><span class="nx">ee</span><span class="p">.</span><span class="nx">Reducer</span><span class="p">.</span><span class="nx">sum</span><span class="p">().</span><span class="nx">group</span><span class="p">({</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">                  </span><span class="nx">groupField</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="w"> </span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">                  </span><span class="nx">groupName</span><span class="o">:</span><span class="w"> </span><span class="s2">"Class"</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">                </span><span class="p">}),</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">                </span><span class="nx">scale</span><span class="o">:</span><span class="w"> </span><span class="mf">10</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">              </span><span class="p">});</span>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="c1">// Print the results of land cover area calculation</span>
+</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="nx">print</span><span class="p">(</span><span class="nx">lcArea</span><span class="p">);</span>
+</span><span id="__span-2-23"><a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a>
+</span><span id="__span-2-24"><a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="c1">// Visualize the original satellite imagery clipped to the ROI</span>
+</span><span id="__span-2-25"><a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a><span class="nb">Map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">img</span><span class="p">);</span>
+</span></code></pre></div>
+<h3 id="steps">Steps:<a class="headerlink" href="#steps" title="Permanent link">¶</a></h3>
+<ol>
+<li><strong>Importing and Clipping Satellite Imagery</strong>:</li>
+<li>Import the "ESA/WorldCover/v200" image collection using <code>ee.ImageCollection("ESA/WorldCover/v200")</code>.</li>
+<li>Select the first image from the collection using <code>.first()</code>.</li>
+<li>
+<p>Clip the selected image to a specified region of interest (ROI) using <code>.clip(roi)</code>.</p>
+</li>
+<li>
+<p><strong>Calculating Pixel Area and Adding Bands</strong>:</p>
+</li>
+<li>Calculate the pixel area using <code>ee.Image.pixelArea()</code>.</li>
+<li>
+<p>Add bands from the original image to the pixel area image using <code>.addBands(img)</code>.</p>
+</li>
+<li>
+<p><strong>Reducing Regions with Group Reducer</strong>:</p>
+</li>
+<li>Use the <code>reduceRegions</code> function to aggregate pixel area by land cover class within the ROI.</li>
+<li>Specify the ROI using the <code>collection</code> parameter.</li>
+<li>Apply the <code>ee.Reducer.sum()</code> to calculate the sum of pixel area.</li>
+<li>Group the results by the land cover class using <code>.group({ groupField: 1, groupName: "Class" })</code>. Here, <code>groupField: 1</code> indicates the band index of the land cover class.</li>
+<li>
+<p>Set the scale to 10 meters.</p>
+</li>
+<li>
+<p><strong>Printing and Visualizing Results</strong>:</p>
+</li>
+<li>Print the results of land cover area calculation using <code>print(lcArea)</code>.</li>
+<li>Visualize the original satellite imagery clipped to the ROI using <code>Map.addLayer(img)</code>.</li>
+</ol>
+<h3 id="understanding-the-group-reducer">Understanding the Group Reducer:<a class="headerlink" href="#understanding-the-group-reducer" title="Permanent link">¶</a></h3>
+<p>In this code, we utilize the <code>ee.Reducer.sum().group()</code> function to calculate the sum of pixel area for each land cover class within the ROI. Here's how the group reducer works:</p>
+<ul>
+<li><strong>Grouping by Land Cover Class</strong>:</li>
+<li>We specify <code>groupField: 1</code> to indicate that we want to group the results by the second band of the image, which represents the land cover class.</li>
+<li>
+<p>The <code>groupName: "Class"</code> parameter assigns the name "Class" to the grouped field in the output.</p>
+</li>
+<li>
+<p><strong>Applying Reducer to Grouped Data</strong>:</p>
+</li>
+<li>After grouping by land cover class, we apply the <code>ee.Reducer.sum()</code> to calculate the sum of pixel area within each land cover class.</li>
+</ul>
+<p>### <strong>Assignmemnt 13</strong></p>
+<ul>
+<li>
+<p><strong><a href="https://data.humdata.org/dataset/cod-ps-bgd/resource/f23d4da2-e473-4960-9d94-37df92c8d044">Download this dummy data set from here</a></strong>. Reduce any three column, and group division. Upload the code, code link, and screenshot in your github repo. Submit the repo link.- 3</p>
+</li>
+<li>
+<p><strong><a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1">Use this landcover data set</a></strong> and calculate the sum of each class of the band <code>LC_Type1</code> for your upazila for the year 2021. Upload the code, code link, and screenshot in your github repo. Submit the repo link. -3</p>
+</li>
+<li>
+<p><strong><a href="https://www.youtube.com/watch?v=mrGqVM7Ww44">Watch this tutorial</a></strong>, and make a map of your district by using QGIS. Upload the map in your github repo, share your map in  <strong><a href="https://www.facebook.com/groups/902693884377077/">our facebook group</a></strong>. Give hashtags: <strong>#assignment13</strong>, <strong>#QGISMapping</strong>, <strong>#geospatialProgramming</strong> in your post. Submit the link of your facebook post. -4</p>
+</li>
+</ul>
+<p><strong>Submision link</strong>: Check your email</p>
+<p><strong>Dead line</strong>: <span style="color: red;"> 15 May, 2024 </span></p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../mapThreasholdingclass12/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Class 12 - Value thresholding and area calculation">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Class 12 - Value thresholding and area calculation
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../exportingDataClass14/" class="md-footer__link md-footer__link--next" aria-label="Next: Class 14 - Exporting raster and vector data">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Class 14 - Exporting raster and vector data
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2025  GEO-CODING LAB</a> 
+
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.footer", "navigation.instant", "navigation.tracking", "navigation.top", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
