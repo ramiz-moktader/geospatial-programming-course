@@ -78,7 +78,7 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 * Payment via bKash: **01521486364 (Send Money)**
 
 ### Class starts: 25 July 2025
-📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632){target="_blank"} .
+📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632){target="_blank"} 
 
 ---
 ### Watch a sample class of the Course: 
