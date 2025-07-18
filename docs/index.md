@@ -82,7 +82,8 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 
 ---
 ### Watch a sample class of the Course: 
-[The hidden structure of satellite imagery](https://www.youtube.com/xwlE6-lY2Mk)
+[The hidden structure of satellite imagery](https://www.youtube.com/watch?v=xwlE6-lY2Mk)
+
 ![type:video](https://www.youtube.com/embed/xwlE6-lY2Mk)
 ### 🚀 Ready to Start?
 
