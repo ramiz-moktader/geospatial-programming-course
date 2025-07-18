@@ -78,7 +78,7 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 * Payment via bKash: **01521486364 (Send Money)**
 
 ### Class starts: 25 July 2025
-📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632) (replace with actual link).
+📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632){target="_blank"} .
 
 ---
 ### Watch a sample class of the Course: 
@@ -108,12 +108,12 @@ Make sure you use the same email address that you gave during registration of th
 9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
 10. [6th class](https://www.youtube.com/watch?v=R97uPjvqbnc&feature=youtu.be)
 11. [7th class](https://youtu.be/xwlE6-lY2Mk) -->
-. [Signup for Google Earth Engine account](https://youtu.be/NQDSess-HBQ)
+. [Signup for Google Earth Engine account](https://youtu.be/NQDSess-HBQ){target="_blank"} 
 
 ### Troubleshooting video
 
-1. [How to create JS file in VS Code-English](https://youtu.be/Fw851CKuyCM)
-2. [Solving prompt-sync module not found-Bangla](https://www.youtube.com/watch?v=doIYvq4ZJxA&t=8s)
+1. [How to create JS file in VS Code-English](https://youtu.be/Fw851CKuyCM){target="_blank"}
+2. [Solving prompt-sync module not found-Bangla](https://www.youtube.com/watch?v=doIYvq4ZJxA&t=8s){target="_blank"}
 
 
 
