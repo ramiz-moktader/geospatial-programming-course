@@ -97,7 +97,7 @@ Make sure you use the same email address that you gave during registration of th
 
 1. [Installing vs code and node js](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ)
 2. [1st class part-1](https://drive.google.com/file/d/1Y1OiFRidijEs7S_u3yhuocXJkin_JXWP/view?usp=drive_link)
-3. [1st class part-2](https://drive.google.com/file/d/1jBoXTfc0hzYxJj92jcmAUUX1tg5Lnu3-/view?usp=drive_link))
+3. [1st class part-2](https://drive.google.com/file/d/1jBoXTfc0hzYxJj92jcmAUUX1tg5Lnu3-/view?usp=drive_link)
 4. [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0)
 5. [2nd class](https://youtu.be/2oPc2RAzAt0)
 6. [3rd class](https://youtu.be/TfZvwFouCjE)
@@ -106,7 +106,7 @@ Make sure you use the same email address that you gave during registration of th
 9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
 10. [6th class](https://www.youtube.com/watch?v=R97uPjvqbnc&feature=youtu.be)
 11. [7th class](https://youtu.be/xwlE6-lY2Mk)
-12. [Signup for Google Earth Engine account]()
+12. [Signup for Google Earth Engine account](https://youtu.be/NQDSess-HBQ)
 
 ### Troubleshooting video
 

@@ -84,21 +84,21 @@ multi-line comment
 
 Congratulations on completing the first step of your geospatial programming journey! Keep exploring and learning. Now you are ready to delve into any programming language.
 
-To participate in the final part of the **Geospatial Programming course**, you have to [take the exam](https://forms.gle/iNzgfHK9aPni83E76) and score 5 out of 10. All the questions are based on this article. Some of you may find them very easy.
+<!-- To participate in the final part of the **Geospatial Programming course**, you have to [take the exam](https://forms.gle/iNzgfHK9aPni83E76) and score 5 out of 10. All the questions are based on this article. Some of you may find them very easy. -->
 
-**Points to be noted:**
+<!-- **Points to be noted:**
 - Before taking the exam, go through the above article carefully.
 - Each participant can submit answers only once.
 - To proceed to the next step of the course, each participant must obtain a minimum of 5 out of 10.
 - The last date of submission is December 31, 2023.
 - Only eligible participants will be contacted via email for the next steps.
 
----
+--- -->
 
-**Join our [Facebook group](https://www.facebook.com/groups/902693884377077/) for discussions and support. Participate in the exam by filling out the [Google Form](https://forms.gle/iNzgfHK9aPni83E76).**
+**Join our [Facebook group](https://www.facebook.com/groups/902693884377077/) for discussions and support. Enroll in the cohort-2 of Geospatial Programming Course [Google Form](https://forms.gle/Vfn5vH63y2apLHQd9).**
 
-**Contact:** [ramizmoktader064@gmail.com](mailto:ramizmoktader064@gmail.com)
+**Contact:** [geocoder.contact@gmail.com](mailto:geocoder.contact@gmail.com)
 
-**© Ramiz Moktader**
+**© Geocodinglab.com**
 
 
