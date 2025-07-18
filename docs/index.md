@@ -78,13 +78,17 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 * Payment via bKash: **01521486364 (Send Money)**
 
 ### Class starts: 25 July 2025
-📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632){target="_blank"} 
+
+📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632){target="_blank"}
 
 ---
-### Watch a sample class of the Course: 
+
+### Watch a sample class of the Course:
+
 [The hidden structure of satellite imagery](https://www.youtube.com/watch?v=xwlE6-lY2Mk)
 
 ![type:video](https://www.youtube.com/embed/xwlE6-lY2Mk)
+
 ### 🚀 Ready to Start?
 
 This is your chance to break into one of the most in-demand tech skills —  **in your own language** .
@@ -93,34 +97,32 @@ This is your chance to break into one of the most in-demand tech skills —  **i
 
 ➡️ Visit [geocodinglab.com](http://geocodinglab.com/) or email us (geocoder.contact@gmail.com) for more information.
 
-
-
 ### **List of all video contet to follow:**
 
 Make sure you use the same email address that you gave during registration of the course.
 
-. [Installing vs code and node js](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ){target="_blank"}
+
+
+*  [Installing vs code and node js](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ){target="_blank"}
+
 <!-- 2. [1st class part-1](https://drive.google.com/file/d/1Y1OiFRidijEs7S_u3yhuocXJkin_JXWP/view?usp=drive_link)
 3. [1st class part-2](https://drive.google.com/file/d/1jBoXTfc0hzYxJj92jcmAUUX1tg5Lnu3-/view?usp=drive_link) -->
-. [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0){target="_blank"}
+
+*  [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0){target="_blank"}
+
 <!-- 5. [2nd class](https://youtu.be/2oPc2RAzAt0)
 6. [3rd class](https://youtu.be/TfZvwFouCjE) -->
-. [Creating GitHub account and asking your questions](https://www.youtube.com/watch?v=n6PiBM-cudM){target="_blank"}
+
+* [Creating GitHub account and asking your questions](https://www.youtube.com/watch?v=n6PiBM-cudM){target="_blank"}
+
 <!-- 8. [4th class](https://www.youtube.com/watch?v=2M7UNE9a4Ek)
 9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
 10. [6th class](https://www.youtube.com/watch?v=R97uPjvqbnc&feature=youtu.be)
 11. [7th class](https://youtu.be/xwlE6-lY2Mk) -->
-. [Signup for Google Earth Engine account](https://youtu.be/NQDSess-HBQ){target="_blank"} 
+
+* [Signup for Google Earth Engine account](https://youtu.be/NQDSess-HBQ){target="_blank"}
 
 ### Troubleshooting video
 
 1. [How to create JS file in VS Code-English](https://youtu.be/Fw851CKuyCM){target="_blank"}
 2. [Solving prompt-sync module not found-Bangla](https://www.youtube.com/watch?v=doIYvq4ZJxA&t=8s){target="_blank"}
-
-
-
-
-
-
-
-
