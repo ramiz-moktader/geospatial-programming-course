@@ -77,17 +77,19 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 * 💼 Professionals: **BDT 3500**
 * Payment via bKash: **01521486364 (Send Money)**
 
-📝 After payment, complete your registration through our [Enrollment Form](#) (replace with actual link).
+### Class starts: 25 July 2025
+📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632) (replace with actual link).
 
 ---
-
+### Watch a Class of the Course: 
+![type:video](https://youtu.be/xwlE6-lY2Mk)
 ### 🚀 Ready to Start?
 
 This is your chance to break into one of the most in-demand tech skills —  **in your own language** .
 
 📩 **Seats are limited.** Enroll now and start your journey into geospatial programming today!
 
-➡️ Visit [geocodinglab.com](http://geocodinglab.com/) or email us for more information.
+➡️ Visit [geocodinglab.com](http://geocodinglab.com/) or email us (geocoder.contact@gmail.com) for more information.
 
 
 

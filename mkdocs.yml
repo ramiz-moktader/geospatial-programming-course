@@ -93,6 +93,8 @@ extra:
     #   link: https://github.com/ramiz-moktader/
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/groups/902693884377077 
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@geocodinglab
 
 extra_javascript:
   - javascripts/mathjax.js
