@@ -82,7 +82,7 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 
 ---
 ### Watch a sample class of the Course: 
-![type:video](https://www.youtube.com/embed/xwlE6-lY2Mk){target="_blank"}
+![type:video](https://www.youtube.com/embed/xwlE6-lY2Mk)
 ### 🚀 Ready to Start?
 
 This is your chance to break into one of the most in-demand tech skills —  **in your own language** .
