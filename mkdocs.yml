@@ -23,7 +23,7 @@ nav:
      - Class 15 - Supervised and unSupervised Machine learning : supmlclass15.md
 
 
-site_author: Ramiz moktader
+site_author: GEOCODING LAB 
 site_description: >-
   
 
@@ -86,7 +86,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/ramiz-moktader/
+      # link: https://github.com/ramiz-moktader/
     # - icon: fontawesome/brands/twitter
     #   link: https://github.com/ramiz-moktader/
     # - icon: fontawesome/brands/linkedin
@@ -124,6 +124,7 @@ extra_css:
   
 plugins:
   - search
+  - mkdocs-video 
 # extra:
 #   generator: false
 copyright: |
