@@ -128,7 +128,7 @@ plugins:
   - search
   - mkdocs-video:
       # enabled: true
-      is_responsive: true
+      # is_responsive: true
 extra:
   generator: false
 copyright: |
