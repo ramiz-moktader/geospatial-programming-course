@@ -153,19 +153,7 @@ console.log(doubledNum); // Outputting the new array with doubled values
 
 ```
 
-In your provided code example, you're using the `map()` method to double each number in the `numList` array using the `doublingNuml` function. Let's break it down:
-
-```javascript
-var numList = [2, 3, 4, 5]; // Original array
-
-function doublingNuml(num) {
-    return num * 2; // Function to double a number
-}
-
-var doubledNum = numList.map(doublingNuml); // Using map() to double each element
-
-console.log(doubledNum); // Outputting the new array with doubled values
-```
+Let's break down the above code example:
 **Explanation**:
 
 1. We have an array `numList` containing `[2, 3, 4, 5]`.

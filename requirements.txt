@@ -1,2 +1,2 @@
-mkdocs-material
-mkdocs-video 
+mkdocs-material>=9.5,<10
+mkdocs-video>=1.5,<2

@@ -65,7 +65,7 @@ Reducing an image collection involves aggregating multiple images into a single 
 ```javascript
 var medianComposite = filteredLandsat.median();
 print('Median Composite:', medianComposite);
-Map.addLayer(medianComposite, {bands: ['B4', 'B3', 'B2'], min: 0, max: 3000}, 'Median Composite');
+Map.addLayer(medianComposite, {bands: ['B4', 'B3', 'B2'], min: 0, max: 0.3}, 'Median Composite');
 ```
 
 ## 5. Metadata of Image Collection
@@ -76,7 +76,7 @@ Understanding the metadata associated with satellite imagery is essential for pr
 
 ```javascript
 var image = ee.Image(filteredLandsat.first());
-print('Metadata:', image.getInfo());
+print('Metadata:', image);
 ```
 ### Capture Date of a Single Image
 
@@ -116,14 +116,14 @@ Simple RGB composites combine the red, green, and blue bands to visualize natura
 ### Example: Creating Simple RGB Composite
 
 ```javascript
-var simpleRGB = medianComposite.visualize({bands: ['B4', 'B3', 'B2'], min: 0, max: 3000});
+var simpleRGB = medianComposite.visualize({bands: ['B4', 'B3', 'B2'], min: 0, max: 0.3});
 Map.addLayer(simpleRGB, {}, 'Simple RGB Composite');
 ```
 
 ### Example: Creating False-Color Composite
 
 ```javascript
-var falseColor = medianComposite.visualize({bands: ['B5', 'B4', 'B3'], min: 0, max: 3000});
+var falseColor = medianComposite.visualize({bands: ['B5', 'B4', 'B3'], min: 0, max: 0.3});
 Map.addLayer(falseColor, {}, 'False-Color Composite');
 ```
 In a false color composite: 

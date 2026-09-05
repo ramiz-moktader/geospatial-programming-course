@@ -39,7 +39,7 @@ These are just a few examples, and numerous other normalized difference indices 
 
 ```javascript
 // Import Sentinel-2 collection, filtered for 2023
-var sentinel2 = ee.ImageCollection("COPERNICUS/S2/SR")
+var sentinel2 = ee.ImageCollection("COPERNICUS/S2_SR_HARMONIZED")
   .filterBounds(roi) //replace your ROI variable by your desired area
   .filterDate("2023-01-01", "2023-12-31")
    .first();
@@ -52,10 +52,15 @@ var red = sentinel2.select("B4");
 var ndvi = nir.subtract(red).divide(nir.add(red));
 
 // Add NDVI layer to the map with a green-to-yellow color palette
-map.addLayer(ndvi, {min: 0, max: 1, palette: ["white", "yellow", "green"]});
+Map.addLayer(ndvi, {min: 0, max: 1, palette: ["white", "yellow", "green"]});
 
 // Optionally, export the NDVI image
-Export.image(ndvi, "NDVI_2023_Sentinel2", {scale: 10});
+Export.image.toDrive({
+  image: ndvi,
+  description: "NDVI_2023_Sentinel2",
+  scale: 10,
+  region: roi
+});
 ```
 
 ### Why Those Bands Are Chosen for Specific Indices

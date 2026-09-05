@@ -17,7 +17,7 @@ GEE employs a client-server architecture, where your local machine (client) inte
         ```
     - **Visualization:** Employ `Map()` to display results on the Earth Engine map interface for visual exploration:
         ```javascript
-        var myImage = ee.Image('LANDSAT/LC08/C01/T1_TOA/LC08_044034_20140408');
+        var myImage = ee.Image('LANDSAT/LC08/C02/T1_TOA/LC08_044034_20140408');
         Map.setCenter(-122.33, 37.86, 10); // Set map center
         Map.addLayer(myImage); // Add image to map for viewing
         ```
@@ -35,7 +35,7 @@ GEE employs a client-server architecture, where your local machine (client) inte
 - Examples encompassing essential GEE operations:
     - **Data Loading:** Use `ee.Image()` and `ee.FeatureCollection()` to access and manipulate imagery and feature datasets:
         ```javascript
-        var landsatImage = ee.Image('LANDSAT/LC08/C01/T1_TOA/LC08_044034_20140408');
+        var landsatImage = ee.Image('LANDSAT/LC08/C02/T1_TOA/LC08_044034_20140408');
         var forestFeatures = ee.FeatureCollection('FAO/FRA/2015/global_forest_extent');
         ```
     - **Image Processing:** Utilize methods like `select()`, `normalizedDifference()`, `clip()`, `mask()`, and various mathematical operators for image analysis:

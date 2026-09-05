@@ -7,7 +7,7 @@ In JavaScript, creating a function involves using the `function` keyword, follow
 
 ```javascript
 function greet(name) {
-  // code to be executed
+  return "Hello, " + name;
 }
 ```
 

@@ -8,5 +8,5 @@ echo [$(date)]: "install requirements"
 pip install -r requirements.txt
 echo [$(date)]: "END"
 
-# to remove everything -
-# rm -rf env/ .gitignore conda.yaml README.md .git/
+# to remove the conda environment -
+# rm -rf env/

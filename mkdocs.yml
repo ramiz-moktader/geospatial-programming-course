@@ -1,5 +1,6 @@
 # Project information
 site_name: Intro to programming
+site_url: https://geocodinglab.com
 # defeine TOC or order of website-
 nav:
   - Home: index.md
@@ -84,6 +85,7 @@ theme:
   # logo: PyTorch_logo_icon.svg
   
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github-alt
       # link: https://github.com/ramiz-moktader/
@@ -98,12 +100,9 @@ extra:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js #?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
@@ -129,8 +128,5 @@ plugins:
   - mkdocs-video:
       # enabled: true
       # is_responsive: true
-extra:
-  generator: false
 copyright: |
-  &copy; 2025  GEO-CODING LAB</a> 
-# <a href="https://github.com/ramiz-moktader/"  target="_blank" rel="noopener">
+  &copy; 2026 GEO-CODING LAB

@@ -49,10 +49,6 @@ When a variable is declared, a specific portion of the computer's memory is allo
 **Boolean:**
 - Represents a logical entity and can have only two values: `true` or `false`.
 
-Certainly! Let's simplify and make the explanation more concise:
-
-Certainly! Let's include `toString()` in the explanation:
-
 ### Data Type Conversion in JavaScript:
 
 1. **Automatic Type Conversion (Coercion):**
