@@ -18,12 +18,11 @@ Welcome to the official **Certificate Verification Portal** of **GEOCODING LAB**
 > [!NOTE]
 > This registry is maintained directly by the course instruction team. Each entry corresponds to an authenticated credential issued upon successful completion of the course syllabus and hands-on assignments.
 
-| Certificate ID | Participant Name | Course / Track | Issue Date | Status | Credential |
+| Certificate ID | Participant Name | Course / Track | Issue Date | Status | Credential Record |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `GPC-C2-001` | *Example Graduate* | Geospatial Programming (Cohort-2) | June 2024 | :white_check_mark: Verified | [View Record](#) |
-| `GPC-C2-002` | *Participant Name* | Geospatial Programming (Cohort-2) | June 2024 | :white_check_mark: Verified | [View Record](#) |
+| *Registry Active* | *Records verified upon certificate issuance* | Geospatial Programming | *Rolling* | Verified | [Contact Verification](mailto:geocoder.contact@gmail.com) |
 
-*(New participant certificate verification records are added here as certificates are issued.)*
+*(Verified participant credential records are published in this registry as course completion certificates are issued.)*
 
 ---
 
@@ -46,3 +45,4 @@ If you are an employer, university, or hiring manager requiring formal written c
 * ✉️ **Official Verification Email:** [geocoder.contact@gmail.com](mailto:geocoder.contact@gmail.com)
 * 🌐 **Website:** [geocodinglab.com](https://geocodinglab.com)
 * 📍 **Issuing Organization:** GEOCODING LAB
+
