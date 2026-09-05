@@ -1,128 +1,297 @@
-# **Geospatial Programming Course Cohort-2**
+<div class="hero-container" markdown>
 
-This course is carefully designed to take you from zero coding knowledge to building professional geospatial projects—step by step, in your own language, Bengali. Whether you're a student, job seeker, or researcher, each class builds on the previous one to help you understand not just how to run code, but why it works.
+# Geospatial Programming & Cloud Earth Engine
 
-We go beyond tutorials and give you the logic, tools, and portfolio to become confident in programming, Google Earth Engine (GEE), and geospatial analysis. Below is a detailed breakdown of what you'll learn in each class.
+<p class="hero-subtitle">
+A practical, step-by-step masterclass taking you from zero coding experience to building professional geospatial analysis and cloud computing projects with Google Earth Engine — fully explained in <strong>Bengali</strong>.
+</p>
 
----
+<div>
+  <span class="badge primary">⚡ Self-Paced Recorded Course</span>
+  <span class="badge">🎥 1-Year Video & Materials Access</span>
+  <span class="badge">🇧🇩 Bengali Medium</span>
+  <span class="badge">📜 Completion Certificate</span>
+</div>
 
-## 📚 Course Structure & Class Modules
+<div class="hero-cta" markdown>
+[🚀 Explore Curriculum](#course-curriculum){ .md-button .md-button--primary }
+[💳 Get Recorded Classes](#enrollment-pricing){ .md-button }
+[▶️ Watch Free Preview](#sample-class){ .md-button }
+</div>
 
-## 🔰 Module 1: Introduction to Programming with JavaScript
-
-* **Class 1: Code Begins – Variables, Data Types & Comparisons**
-* **Class 2: Making Decisions – Arithmetic & Conditional Statements**
-* **Class 3: Code That Repeats – Loops & Logical Operators**
-* **Class 4: Organize Everything – Introduction to Arrays**
-* **Class 5: Write Once, Use Anywhere – Mastering Functions**
-* **Class 6: Real-World Data – Understanding Objects**
-
-## 🌐 Module 2: Foundations of Google Earth Engine (GEE)
-
-* **Class 7: Inside the Image – Understanding Details of Digital Image Structure**
-* **Class 8: Beyond Pixels – GIS Data Types & Vector Data in GEE**
-* **Class 9: Power Split – GEE Client vs Server Explained**
-* **Class 10: Dive into Data – Working with Image Collections**
-* **Class 11: Seeing the Invisible – Calculating Indices (NDVI, NDWI, etc.)**
-* **Class 12: From Pixels to Insights – Thresholding & Area Calculations**
-* **Class 13: Big Picture Stats – Group Reducers & Zonal Statistics**
-* **Class 14: Take it With You – Exporting Raster & Vector Data**
-* **Class 15: Map Intelligence – Supervised vs Unsupervised Machine Learning**
-
-## 🛰️ Module 3: Real-World Applications in Remote Sensing
-
-* **Class 16: Land from Above – Land Use & Land Cover Classification**
-* **Class 17: Spot the Change – Change Detection Techniques**
-* **Class 18: Precision Mapping – Feature Extraction of Forest, Water & Urban Areas**
-
-## 🗺️ Module 4: Crafting Publication-Ready Maps Using QGIS
-
-* **Class 19: Styling with Purpose – Symbology, Colors & Legends in QGIS**
-* **Class 20: Map Composition – Grids, North Arrows & Scale Bars**
-* **Class 21: Polishing Maps – Fonts, Labels & Layout Design**
-* **Class 22: Export Like a Pro – High-Resolution Map Export Techniques**
-
-## 💼 Module 5: Building Your Geospatial Portfolio with GitHub
-
-* **Class 23:** Git & GitHub Basics: Creating and Hosting Projects
-* **Class 24:** Writing a README, Documenting Your Work, Going Public
-
-## 💡 What You'll Learn
-
-* ✅ **Programming Fundamentals** — Build a solid foundation in coding concepts from scratch.
-* ✅ **Google Earth Engine (GEE)** — Master cloud-based geospatial analysis at scale.
-* ✅ **Advanced Map Design** — Unlock hidden techniques for making powerful, story-driven maps.
-* ✅ **Portfolio Building** — Create a complete GitHub portfolio to showcase your real-world geospatial skills.
-* ✅ **Career-Ready Skills** — Become confident to explore any programming language after Part 1.
-
-### 📦 Course Structure
-
-* 🎥 18 Recorded Classes —  with 1-year full access to all videos.
-* 🎙️ 5 Live Interactive Sessions — Get real-time help and feedback.
-* 🧪 5 Hands-on Projects — Apply your learning to solve real problems.
-* 📝 20 Practical Assignments — Reinforce core concepts through practice.
-
-### 🏆 Special Benefits
-
-* 💵 **Top 3 Performers Get Refunds!**
-  * 1st Place: 100% Course Fee Refund
-  * 2nd Place: 70% Refund
-  * 3rd Place: 50% Refund
-* 📜 Certificate on Completion
-* 🔬 Chance to Work with Our Research Team
-
-### 💳 Enrollment & Payment Info
-
-* 🎓 Students: **BDT 2000**
-* 💼 Professionals: **BDT 3500**
-* Payment via bKash: **01521486364 (Send Money)**
-
-### Class starts: 25 July 2025
-
-📝 After payment, complete your registration through our [Enrollment Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632){target="_blank"}
+</div>
 
 ---
 
-### Watch a sample class of the Course:
+## ⚡ Course at a Glance
 
-[The hidden structure of satellite imagery](https://www.youtube.com/watch?v=xwlE6-lY2Mk)
+<div class="grid cards" markdown>
 
-![type:video](https://www.youtube.com/embed/xwlE6-lY2Mk)
+-   🎥 **18+ Recorded Masterclasses**
+    ---
+    Structured video lessons taking you from core JavaScript programming to advanced cloud satellite data analytics.
 
-### 🚀 Ready to Start?
+-   🧪 **5 Real-World Projects**
+    ---
+    Build portfolio-ready projects including vegetation thresholding, waterbody extraction, and machine learning classification.
 
-This is your chance to break into one of the most in-demand tech skills —  **in your own language** .
+-   📝 **20 Practical Assignments**
+    ---
+    Reinforce every concept with hands-on coding exercises and direct feedback to ensure true proficiency.
 
-📩 **Seats are limited.** Enroll now and start your journey into geospatial programming today!
+-   🏆 **Performance Rewards**
+    ---
+    Top 3 performers receive up to **100% course fee refunds** plus potential opportunities to work with our research team.
 
-➡️ Visit [geocodinglab.com](http://geocodinglab.com/) or email us (geocoder.contact@gmail.com) for more information.
+</div>
 
-### **List of all video contet to follow:**
+---
 
-Make sure you use the same email address that you gave during registration of the course.
+## 💡 What You Will Master
 
+<div class="grid cards" markdown>
 
+-   💻 **JavaScript Fundamentals for GIS**
+    ---
+    Variables, data types, control flow, functions, and objects tailored specifically for Google Earth Engine's JavaScript API.
 
-*  [Installing vs code and node js](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ){target="_blank"}
+-   🌐 **Google Earth Engine (GEE)**
+    ---
+    Master Google's cloud computing platform: client vs server architecture, proxy objects, reducers, and large-scale data processing.
 
-<!-- 2. [1st class part-1](https://drive.google.com/file/d/1Y1OiFRidijEs7S_u3yhuocXJkin_JXWP/view?usp=drive_link)
-3. [1st class part-2](https://drive.google.com/file/d/1jBoXTfc0hzYxJj92jcmAUUX1tg5Lnu3-/view?usp=drive_link) -->
+-   🛰️ **Satellite Imagery & Spectral Indices**
+    ---
+    Process multispectral Landsat & Sentinel-2 imagery. Calculate NDVI, NDWI, NDSI, SAVI, and extract environmental insights.
 
-*  [Installing Npm: Requried for 2nd class ](https://youtu.be/AqVNAOXOSN0){target="_blank"}
+-   🗺️ **QGIS & Portfolio Publishing**
+    ---
+    Design publication-ready cartographic layouts in QGIS and document your code on GitHub to build an impressive professional portfolio.
 
-<!-- 5. [2nd class](https://youtu.be/2oPc2RAzAt0)
-6. [3rd class](https://youtu.be/TfZvwFouCjE) -->
+</div>
 
-* [Creating GitHub account and asking your questions](https://www.youtube.com/watch?v=n6PiBM-cudM){target="_blank"}
+---
 
-<!-- 8. [4th class](https://www.youtube.com/watch?v=2M7UNE9a4Ek)
-9. [5th class](https://www.youtube.com/watch?v=NzS0iuZm-y0)
-10. [6th class](https://www.youtube.com/watch?v=R97uPjvqbnc&feature=youtu.be)
-11. [7th class](https://youtu.be/xwlE6-lY2Mk) -->
+<h2 id="course-curriculum">📚 Course Curriculum</h2>
 
-* [Signup for Google Earth Engine account](https://youtu.be/NQDSess-HBQ){target="_blank"}
+### 🔰 Module 1: Introduction to Programming with JavaScript
+Essential programming foundations to build confidence before writing Earth Engine code.
 
-### Troubleshooting video
+<div class="grid cards" markdown>
 
-1. [How to create JS file in VS Code-English](https://youtu.be/Fw851CKuyCM){target="_blank"}
-2. [Solving prompt-sync module not found-Bangla](https://www.youtube.com/watch?v=doIYvq4ZJxA&t=8s){target="_blank"}
+-   [**Class 1: Code Begins**](intro-to-programming-with-js-class1.md)
+    ---
+    Variables, data types, type conversions, and comparison operators in JavaScript.
+
+-   [**Class 2: Making Decisions**](conditional-statements-class2.md)
+    ---
+    Arithmetic operators and conditional statements (`if`, `else`, `else if`).
+
+-   [**Class 3: Code That Repeats**](logical-operator-loop-class3.md)
+    ---
+    Logical operators (`&&`, `||`, `!`), truth tables, and `for` loops.
+
+-   [**Class 4: Organize Everything**](array-class4.md)
+    ---
+    Introduction to arrays, array indexing, array methods, and the `map()` method.
+
+-   [**Class 5: Write Once, Use Anywhere**](function-class5.md)
+    ---
+    Mastering functions, parameters, return values, scope, and reusability.
+
+-   [**Class 6: Real-World Data**](js-objects-class6.md)
+    ---
+    Understanding objects, properties, methods, destructuring, and the `this` keyword.
+
+</div>
+
+### 🌐 Module 2: Foundations of Google Earth Engine (GEE)
+Harness cloud computing for planetary-scale geospatial and remote sensing analysis.
+
+<div class="grid cards" markdown>
+
+-   [**Class 7: Inside the Digital Image**](image-formation-class7.md)
+    ---
+    Digital image structures, light absorption/reflection, RGB channels, and satellite bands.
+
+-   [**Class 8: GIS Data Types & Vectors in GEE**](raster-vector-data-in-gee.md)
+    ---
+    Raster vs vector data, and working with `ee.Geometry`, `ee.Feature`, and `ee.FeatureCollection`.
+
+-   [**Class 9: GEE Client vs Server Architecture**](gee-client-server-side-class9.md)
+    ---
+    Demystifying client-side vs server-side execution, `ee.Number`, `ee.List`, and `ee.Dictionary`.
+
+-   [**Class 10: Working with Image Collections**](imgcollection-class10.md)
+    ---
+    Filtering by date, bounds, and metadata, creating median composites, and false-color RGB.
+
+-   [**Class 11: Calculating Spectral Indices**](indexCalculationClass11.md)
+    ---
+    Deriving vegetation and water indices (NDVI, NDWI, NBR, NDSI, SAVI) from Sentinel-2.
+
+-   [**Class 12: Value Thresholding & Area Analysis**](mapThreasholdingclass12.md)
+    ---
+    Binary classification via index thresholding and quantitative area computation with `reduceRegion`.
+
+-   [**Class 13: Group Reducers & Zonal Statistics**](groupReducerClass13.md)
+    ---
+    Aggregating zonal statistics across administrative divisions using `reduceColumns` and `reduceRegions`.
+
+-   [**Class 14: Exporting Raster & Vector Data**](exportingDataClass14.md)
+    ---
+    Exporting processed imagery and feature collections to Google Drive as GeoTIFF, SHP, and CSV.
+
+-   [**Class 15: Machine Learning in GEE**](supmlclass15.md)
+    ---
+    Supervised classification with CART (`smileCart`) and unsupervised K-means clustering.
+
+</div>
+
+### 🛰️ Advanced Modules (Included in Video Lectures)
+
+<div class="grid cards" markdown>
+
+-   **Module 3: Real-World Remote Sensing Applications**
+    ---
+    * **Class 16:** Land Use & Land Cover (LULC) Classification workflows
+    * **Class 17:** Multi-temporal Change Detection techniques
+    * **Class 18:** Feature extraction of forests, waterbodies, and urban clusters
+
+-   **Module 4: Publication-Ready Maps in QGIS**
+    ---
+    * **Class 19:** Symbology, color ramps, and legend customization
+    * **Class 20:** Layout design: grids, coordinates, north arrows, and scale bars
+    * **Class 21:** Typography, annotation, and professional styling
+    * **Class 22:** High-resolution map export for research journals and reports
+
+-   **Module 5: Geospatial Portfolio with GitHub**
+    ---
+    * **Class 23:** Git & GitHub essentials for geospatial practitioners
+    * **Class 24:** Documenting projects, writing READMEs, and building a public portfolio
+
+</div>
+
+---
+
+<h2 id="sample-class">🎥 Free Sample Class</h2>
+
+Watch this preview lecture to experience our clear, step-by-step teaching style:
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube-nocookie.com/embed/xwlE6-lY2Mk" title="The hidden structure of satellite imagery" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+> [!TIP]
+> **Video Topic:** *The Hidden Structure of Satellite Imagery* — Learn how satellite sensors capture electromagnetic radiation and how digital computers reconstruct multi-band raster data.
+
+---
+
+## 🛠️ Prerequisites & Essential Setup
+
+Everything you need to install before starting the hands-on exercises:
+
+<div class="grid cards" markdown>
+
+-   💻 [**VS Code & Node.js Setup**](https://youtu.be/Q1DB41aiV4Y?si=AYn20G9hmRctcNeJ){target="_blank"}
+    ---
+    Step-by-step installation of Visual Studio Code and the Node.js runtime.
+
+-   📦 [**npm & Environment Setup**](https://youtu.be/AqVNAOXOSN0){target="_blank"}
+    ---
+    Setting up npm and installing packages required for local JavaScript exercises.
+
+-   🌍 [**Google Earth Engine Signup**](https://youtu.be/NQDSess-HBQ){target="_blank"}
+    ---
+    Registering for a free Google Earth Engine non-commercial research account.
+
+-   🐙 [**GitHub Account & Support**](https://www.youtube.com/watch?v=n6PiBM-cudM){target="_blank"}
+    ---
+    Creating a GitHub account to submit assignments and track your code portfolio.
+
+-   🔧 [**Troubleshooting: Creating JS Files**](https://youtu.be/Fw851CKuyCM){target="_blank"}
+    ---
+    How to create and run JavaScript files in VS Code for beginners.
+
+-   🔧 [**Troubleshooting: prompt-sync Issue**](https://www.youtube.com/watch?v=doIYvq4ZJxA&t=8s){target="_blank"}
+    ---
+    Resolving module-not-found errors for terminal input handling in Node.js.
+
+</div>
+
+---
+
+<h2 id="enrollment-pricing">💳 Enrollment & Pricing</h2>
+
+Our recorded course gives you self-paced access to the complete lecture library, source code scripts, and community support.
+
+<div class="pricing-grid">
+
+  <div class="pricing-card">
+    <div class="pricing-header">
+      <h3>Student Plan</h3>
+      <p>For currently enrolled university and college students</p>
+    </div>
+    <div class="pricing-price">
+      BDT 2,000 <small>/ one-time</small>
+    </div>
+    <ul class="pricing-features">
+      <li>✅ Full access to all 18+ recorded lectures</li>
+      <li>✅ 1-year unlimited video access</li>
+      <li>✅ Complete GEE scripts & dataset access</li>
+      <li>✅ 20 practical assignments with feedback</li>
+      <li>✅ Community support group access</li>
+      <li>✅ Course completion certificate</li>
+    </ul>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632" target="_blank" class="md-button md-button--primary" style="text-align: center;">Enroll as Student</a>
+  </div>
+
+  <div class="pricing-card featured">
+    <div class="pricing-badge">Popular</div>
+    <div class="pricing-header">
+      <h3>Professional Plan</h3>
+      <p>For job seekers, researchers, and industry professionals</p>
+    </div>
+    <div class="pricing-price">
+      BDT 3,500 <small>/ one-time</small>
+    </div>
+    <ul class="pricing-features">
+      <li>✅ Full access to all 18+ recorded lectures</li>
+      <li>✅ 1-year unlimited video access</li>
+      <li>✅ Complete GEE scripts & dataset access</li>
+      <li>✅ 20 practical assignments with feedback</li>
+      <li>✅ Community support group access</li>
+      <li>✅ Course completion certificate</li>
+      <li>✅ Research team collaboration eligibility</li>
+    </ul>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632" target="_blank" class="md-button md-button--primary" style="text-align: center;">Enroll as Professional</a>
+  </div>
+
+</div>
+
+### 📝 How to Enroll & Get Instant Access
+
+1. **Send the Course Fee via bKash**:
+   - bKash Personal Number: **`01521486364`** *(Send Money)*
+2. **Complete the Registration Form**:
+   - Fill out our [Online Registration Form](https://docs.google.com/forms/d/e/1FAIpQLSdE4sacajpQeKn94LwmY1-KSFThgfF9E-KWC8V_nlrVPVQBOw/viewform?usp=sharing&ouid=108904229993271228632){target="_blank"} with your transaction ID and email.
+3. **Receive Instant Access**:
+   - You will receive an invitation email containing access to all recorded video classes, starter code, and the private support group.
+
+> [!NOTE]
+> **🏆 Top Performer Refund Program:**
+> We reward commitment! Students with top assignment performance are eligible for fee refunds:
+> - **1st Place:** 100% Course Fee Refund
+> - **2nd Place:** 70% Course Fee Refund
+> - **3rd Place:** 50% Course Fee Refund
+
+---
+
+## 💬 Community & Inquiries
+
+Have questions or need assistance? Connect with us:
+
+- 🌐 **Official Website:** [geocodinglab.com](https://geocodinglab.com)
+- 👥 **Facebook Discussion Group:** [GEOCODING LAB Community](https://www.facebook.com/groups/902693884377077){target="_blank"}
+- 🎥 **YouTube Channel:** [@geocodinglab](https://www.youtube.com/@geocodinglab){target="_blank"}
+- ✉️ **Email Support:** [geocoder.contact@gmail.com](mailto:geocoder.contact@gmail.com)
+
