@@ -4,13 +4,15 @@ site_url: https://geocodinglab.com
 # defeine TOC or order of website-
 nav:
   - Home: index.md
+  - Cohort-2: cohort-2.md
+  - Certificate Verification: certificates/index.md
   - Pre programming Basic: pre-prog-basic.md
   - Intro to programming with JavaScript:
         - Class 1 - var, data type, comparison operator: intro-to-programming-with-js-class1.md
         - Class 2 - Arithmetic operators, conditional statements: conditional-statements-class2.md
         - Class 3 - Logical operator, loop: logical-operator-loop-class3.md 
-        - Class 4 - Arrary: array-class4.md
-        - class 5 - Function: function-class5.md
+        - Class 4 - Array: array-class4.md
+        - Class 5 - Function: function-class5.md
         - Class 6 - Object: js-objects-class6.md 
   - Intro to GIS and GEE: 
      - Class 7 - Basic structure of an image: image-formation-class7.md
