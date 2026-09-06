@@ -1,15 +1,34 @@
 # Project information
 site_name: Intro to programming
+site_url: https://geocodinglab.com
 # defeine TOC or order of website-
 nav:
   - Home: index.md
+  - Cohort-2: cohort-2.md
+  - Certificate Verification: certificates/index.md
+  - .cohort-2-certificates:
+      - certificates/cohort-2/gpc-c2-001.md
+      - certificates/cohort-2/gpc-c2-002.md
+      - certificates/cohort-2/gpc-c2-003.md
+      - certificates/cohort-2/gpc-c2-004.md
+      - certificates/cohort-2/gpc-c2-005.md
+      - certificates/cohort-2/gpc-c2-006.md
+      - certificates/cohort-2/gpc-c2-007.md
+      - certificates/cohort-2/gpc-c2-008.md
+      - certificates/cohort-2/gpc-c2-009.md
+      - certificates/cohort-2/gpc-c2-010.md
+      - certificates/cohort-2/gpc-c2-011.md
+      - certificates/cohort-2/gpc-c2-012.md
+      - certificates/cohort-2/gpc-c2-013.md
+      - certificates/cohort-2/gpc-c2-014.md
+      - certificates/cohort-2/gpc-c2-015.md
   - Pre programming Basic: pre-prog-basic.md
   - Intro to programming with JavaScript:
         - Class 1 - var, data type, comparison operator: intro-to-programming-with-js-class1.md
         - Class 2 - Arithmetic operators, conditional statements: conditional-statements-class2.md
         - Class 3 - Logical operator, loop: logical-operator-loop-class3.md 
-        - Class 4 - Arrary: array-class4.md
-        - class 5 - Function: function-class5.md
+        - Class 4 - Array: array-class4.md
+        - Class 5 - Function: function-class5.md
         - Class 6 - Object: js-objects-class6.md 
   - Intro to GIS and GEE: 
      - Class 7 - Basic structure of an image: image-formation-class7.md
@@ -84,6 +103,7 @@ theme:
   # logo: PyTorch_logo_icon.svg
   
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github-alt
       # link: https://github.com/ramiz-moktader/
@@ -98,12 +118,9 @@ extra:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js #?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
@@ -129,8 +146,5 @@ plugins:
   - mkdocs-video:
       # enabled: true
       # is_responsive: true
-extra:
-  generator: false
 copyright: |
-  &copy; 2025  GEO-CODING LAB</a> 
-# <a href="https://github.com/ramiz-moktader/"  target="_blank" rel="noopener">
+  &copy; 2026 GEO-CODING LAB
