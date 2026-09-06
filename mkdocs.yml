@@ -6,7 +6,22 @@ nav:
   - Home: index.md
   - Cohort-2: cohort-2.md
   - Certificate Verification: certificates/index.md
-  - Shapefiles & Datasets: shapeFiles.md
+  - .cohort-2-certificates:
+      - certificates/cohort-2/gpc-c2-001.md
+      - certificates/cohort-2/gpc-c2-002.md
+      - certificates/cohort-2/gpc-c2-003.md
+      - certificates/cohort-2/gpc-c2-004.md
+      - certificates/cohort-2/gpc-c2-005.md
+      - certificates/cohort-2/gpc-c2-006.md
+      - certificates/cohort-2/gpc-c2-007.md
+      - certificates/cohort-2/gpc-c2-008.md
+      - certificates/cohort-2/gpc-c2-009.md
+      - certificates/cohort-2/gpc-c2-010.md
+      - certificates/cohort-2/gpc-c2-011.md
+      - certificates/cohort-2/gpc-c2-012.md
+      - certificates/cohort-2/gpc-c2-013.md
+      - certificates/cohort-2/gpc-c2-014.md
+      - certificates/cohort-2/gpc-c2-015.md
   - Pre programming Basic: pre-prog-basic.md
   - Intro to programming with JavaScript:
         - Class 1 - var, data type, comparison operator: intro-to-programming-with-js-class1.md
@@ -28,11 +43,14 @@ nav:
 
 
 site_author: GEOCODING LAB 
-site_description: Geospatial Programming and Cloud Earth Engine course materials in Bengali by GEOCODING LAB.
+site_description: >-
+  
+
+
 
 # Repository
-repo_name: ramiz-moktader/geospatial-programming-course
-repo_url: https://github.com/ramiz-moktader/geospatial-programming-course
+# repo_name: ramiz-moktader/
+# repo_url: https://github.com/ramiz-moktader/
 
 # Configuration
 theme:
@@ -40,13 +58,33 @@ theme:
   logo: images/logo-jpg.jpg
   favicon: images/logo.png
   features:
+    
     - content.code.copy
+    # - content.tabs.link
+    # - content.tooltips
+    # - header.autohide
+    # - navigation.expand
     - navigation.footer
+    # - navigation.indexes
+    # # - navigation.instant
+    # # - navigation.instant.prefetch
+    # # - navigation.instant.progress
+    # # - navigation.prune
+    # - navigation.sections
+    # # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.top
+    # - navigation.tracking
+    # - search.highlight
+    # - search.share
+    # - search.suggest
+    # - toc.follow
     - navigation.instant
     - navigation.tracking
     - navigation.top
     - search.highlight
     - search.share
+    # - toc.integrate
 
   language: en
   palette:
@@ -62,12 +100,17 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime    
+  # logo: PyTorch_logo_icon.svg
   
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ramiz-moktader/geospatial-programming-course
+    - icon: fontawesome/brands/github-alt
+      # link: https://github.com/ramiz-moktader/
+    # - icon: fontawesome/brands/twitter
+    #   link: https://github.com/ramiz-moktader/
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://github.com/ramiz-moktader/
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/groups/902693884377077 
     - icon: fontawesome/brands/youtube
@@ -100,6 +143,8 @@ extra_css:
   
 plugins:
   - search
-  - mkdocs-video
+  - mkdocs-video:
+      # enabled: true
+      # is_responsive: true
 copyright: |
   &copy; 2026 GEO-CODING LAB

@@ -44,7 +44,7 @@ featureCollection.reduceColumns({
 
 Suppose we have a `featureCollection` or shapefile named `table`, containing numerical values in the columns "F_TL" and "M_TL", and text values in the column "ADM2_NAME". Now, let's see how we can apply group reducers for the columns holding numerical values.
 
-**[Download the sample dataset from here](https://data.humdata.org/dataset/cod-ps-bgd/resource/f23d4da2-e473-4960-9d94-37df92c8d044)**
+**[Download the dummy data set from here](https://data.humdata.org/dataset/cod-ps-bgd/resource/f23d4da2-e473-4960-9d94-37df92c8d044)**
 ```javascript
 // Define the featureCollection or shapefile named table
 // var table = ...
@@ -142,7 +142,7 @@ In this code, we utilize the `ee.Reducer.sum().group()` function to calculate th
 
  ### **Assignmemnt 13**
 
-- **[Download this sample dataset from here](https://data.humdata.org/dataset/cod-ps-bgd/resource/f23d4da2-e473-4960-9d94-37df92c8d044)**. Reduce any three column, and group division. Upload the code, code link, and screenshot in your github repo. Submit the repo link.- 3
+- **[Download this dummy data set from here](https://data.humdata.org/dataset/cod-ps-bgd/resource/f23d4da2-e473-4960-9d94-37df92c8d044)**. Reduce any three column, and group division. Upload the code, code link, and screenshot in your github repo. Submit the repo link.- 3
  
 - **[Use this landcover data set](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1)** and calculate the sum of each class of the band `LC_Type1` for your upazila for the year 2021. Upload the code, code link, and screenshot in your github repo. Submit the repo link. -3
 
