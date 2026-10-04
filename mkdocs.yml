@@ -4,6 +4,7 @@ site_url: https://geocodinglab.com
 # defeine TOC or order of website-
 nav:
   - Home: index.md
+  - Research Statistics Course: research_stat_course.html
   - Certificate Verification: certificates/index.md
   - Pre programming Basic: pre-prog-basic.md
 

@@ -47,6 +47,20 @@ We go beyond tutorials and give you the logic, tools, and portfolio to become co
 * **Class 23:** Git & GitHub Basics: Creating and Hosting Projects
 * **Class 24:** Writing a README, Documenting Your Work, Going Public
 
+## 📊 Research-Ready Statistics Course (রিসার্চ-রেডি পরিসংখ্যান)
+
+Are you preparing your research questions, hypothesis testing, or statistical modeling for international publication? Explore our interactive, comprehensive course:
+
+👉 **[🔗 Open Research-Ready Statistics Course (প্রশ্ন থেকে প্রকাশনা)](research_stat_course.html){target="_blank"}**
+
+* 🎯 **Descriptive & Inferential Logic:** CLT, Normal Distribution, Skewness, Outliers
+* 🧪 **Hypothesis Testing:** $H_0$ vs $H_1$, $p$-values, Type I & II errors, $\alpha$-levels
+* 📏 **Magnitude & Precision:** Effect Size (Cohen's $d$, $\eta^2$), Confidence Intervals ($95\%$ CI)
+* 📋 **Assumptions & Test Selection:** Normality tests, Levene's test, Interactive Test Wizard
+* 🔬 **Worked Statistical Tests:** Independent/Paired $t$-test, ANOVA, Mann-Whitney, Kruskal-Wallis, Chi-Square, Regression
+* ⚡ **Post-hoc & Corrections:** Bonferroni, Tukey HSD, FDR (Benjamini-Hochberg)
+* 🌲 **Real-world Case Studies:** Environmental, Remote Sensing & Geospatial ML/DL model evaluation
+
 ## 💡 What You'll Learn
 
 * ✅ **Programming Fundamentals** — Build a solid foundation in coding concepts from scratch.
