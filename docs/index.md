@@ -26,6 +26,12 @@ Whether you are a student, job seeker, or researcher, each module builds upon th
     
     [➡️ Verify a Certificate](certificates/index.md)
 
+-   📊 **Research Statistics Course**
+    ---
+    ধাপে ধাপে রিসার্চ-রেডি পরিসংখ্যান কোর্স (বাংলা + English) — প্রশ্ন থেকে প্রকাশনা: Hypothesis Testing, Effect Size, ML/DL Validation & Paper Reporting.
+    
+    [➡️ Open Statistics Course](research_stat_course.html){target="_blank"}
+
 -   🎥 **Recorded Course Access**
     ---
     There is currently no active live cohort running, but anyone can purchase and access all recorded masterclasses anytime.
@@ -134,6 +140,31 @@ Master cloud-based geospatial analysis and planetary-scale data manipulation.
 
 * **Class 23: Git & GitHub Essentials** — Version control basics, creating repositories, and hosting geospatial code.
 * **Class 24: Documenting Your Work** — Writing professional READMEs, sharing GEE scripts, and showcasing your portfolio.
+
+---
+
+<h2 id="research-statistics-course">📊 Research-Ready Statistics Course (রিসার্চ-রেডি পরিসংখ্যান)</h2>
+
+Are you preparing your research questions, hypothesis testing, or statistical modeling for international publication? Explore our interactive, comprehensive course:
+
+<div class="admonition info">
+<p class="admonition-title">Interactive Masterclass & Live Simulators</p>
+<p>
+<strong>Research-Ready Statistics: প্রশ্ন থেকে প্রকাশনা পর্যন্ত</strong> — A complete bilingual guide covering:
+</p>
+<ul>
+  <li><strong>Descriptive & Inferential Logic:</strong> CLT, Normal Distribution, Skewness, Outliers</li>
+  <li><strong>Hypothesis Testing:</strong> $H_0$ vs $H_1$, $p$-values, Type I &amp; II errors, $\alpha$-levels</li>
+  <li><strong>Magnitude & Precision:</strong> Effect Size (Cohen's $d$, $\eta^2$), Confidence Intervals ($95\%$ CI)</li>
+  <li><strong>Assumptions & Test Selection:</strong> Normality tests, Levene's test, Interactive Test Wizard</li>
+  <li><strong>Worked Statistical Tests:</strong> Independent/Paired $t$-test, ANOVA, Mann-Whitney, Kruskal-Wallis, Chi-Square, Linear &amp; Logistic Regression</li>
+  <li><strong>Post-hoc & Corrections:</strong> Bonferroni, Tukey HSD, FDR (Benjamini-Hochberg)</li>
+  <li><strong>Real-world Case Studies:</strong> Environmental, Remote Sensing &amp; Geospatial ML/DL model evaluation</li>
+</ul>
+<p>
+👉 <a href="research_stat_course.html" target="_blank"><strong>🔗 Launch the Research-Ready Statistics Course &rarr;</strong></a>
+</p>
+</div>
 
 ---
 
